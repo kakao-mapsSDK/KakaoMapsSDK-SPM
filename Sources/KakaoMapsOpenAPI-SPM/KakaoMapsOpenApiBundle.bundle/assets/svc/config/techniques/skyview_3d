@@ -1,0 +1,35 @@
+{
+  "render_targets": [
+    {
+      "type": "default"
+    }
+  ],
+  "render_pass": [
+    {
+      "render_target": 0,
+      "clear_color": "0xF7F7EFFF",
+      "clear_depth": 1,
+      "clear_stencil": 0,
+      "operations": [
+        {
+          "type": "effect",
+          "name": "raster-mesh",
+          "effect": "raster_mesh",
+          "z_order": 1000
+        },
+        {
+          "type": "effect",
+          "name": "label",
+          "effect": "label_image",
+          "z_order": 3000
+        },
+        {
+          "type": "effect",
+          "name": "sprite",
+          "effect": "sprite_image",
+          "z_order": 9000
+        }
+      ]
+    }
+  ]
+}

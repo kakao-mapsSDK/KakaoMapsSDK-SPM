@@ -1,0 +1,55 @@
+{
+  "certification": true,
+  "terrain": "epsg5181",
+  "technique": "vulkanTest",
+  "maps": {
+    "basemap": {
+      "name": "basemap",
+      "layers": [
+        {
+          "type": "shape",
+          "name": "landcover",
+          "uri": {
+            "scheme": "http",
+            "host": "map|0|.daumcdn.net",
+            "path": "map_skyview_hd",
+            "extension": "jpg",
+            "params": [
+              {
+                "name": "ck",
+                "value": "0"
+              }
+            ]
+          },
+          "layer": "basemap_image",
+          "effect": "landcover"
+        }
+      ],
+      "overlays": [
+        {
+          "name": "traffic",
+          "layers": [
+            {
+              "name": "ctt",
+              "style": "http://k3g.dev.daumkakao.io/realtime/v1/k3g/ctt/style.json",
+              "uri": {
+                "scheme": "http",
+                "host": "k3g.dev.daumkakao.io",
+                "path": "realtime/v1/k3g/ctt",
+                "extension": "k3g",
+                "params": [
+                  {
+                    "name": "ck",
+                    "value": "0"
+                  }
+                ]
+              },
+              "layer": "overlay_k3g",
+              "effect": "landcover"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

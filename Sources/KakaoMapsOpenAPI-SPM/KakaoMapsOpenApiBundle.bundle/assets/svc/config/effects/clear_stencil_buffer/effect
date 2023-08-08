@@ -1,0 +1,6 @@
+[
+  {
+    "type": "command",
+    "metal": "clear_stencil_buffer/clear_stencil_buffer.metal"
+  }
+]

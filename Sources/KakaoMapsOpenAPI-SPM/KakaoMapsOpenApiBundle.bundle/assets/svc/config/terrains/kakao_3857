@@ -1,0 +1,24 @@
+{
+  "type": "flat",
+  "tile_system": "kakao",
+  "origin": [
+    20037508,
+    20037508
+  ],
+  "min_coord": [
+    -20037508.3427892,
+    -20037508.3427892
+  ],
+  "max_coord": [
+    20037508.3427892,
+    20037508.3427892
+  ],
+  "base_level": 0,
+  "max_level": 21,
+  "root_size": 40075016.6855784,
+  "root_scale": 1222.992453,
+  "visible_tile_resolution": 512,
+  "unvisible_tile_resolution": 1024
+}
+
+

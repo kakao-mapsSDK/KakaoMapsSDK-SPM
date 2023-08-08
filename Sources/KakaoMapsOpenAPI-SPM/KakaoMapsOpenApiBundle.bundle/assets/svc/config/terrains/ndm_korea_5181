@@ -1,0 +1,22 @@
+{
+  "type": "flat",
+  "tile_system": "ndm",
+  "origin": [
+    -30000,
+    -60000
+  ],
+  "min_coord": [
+    -740001.88,
+    -536806.8
+  ],
+  "max_coord": [
+    1219933.99,
+    1254753.19
+  ],
+  "base_level": 14,
+  "max_level": 13,
+  "root_size": 524288.0,
+  "root_scale": 16.0,
+  "visible_tile_resolution": 384,
+  "unvisible_tile_resolution": 1536
+}

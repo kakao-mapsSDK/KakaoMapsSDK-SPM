@@ -1,0 +1,17 @@
+[
+  {
+    "type": "wtm_terrain",
+    "policy": {
+      "type": "visible_adjacent_node",
+      "range" : 3,
+      "keep_max_level": true
+    },
+    "content": {
+      "reader": "image_to_wtm_2d_terrain_shape",
+      "priority": "high",
+      "memory_cache": true,
+      "disk_cache": true
+    }
+  }
+]
+

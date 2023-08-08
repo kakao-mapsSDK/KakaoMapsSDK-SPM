@@ -1,0 +1,5 @@
+{
+  "type": "command",
+  "command": "clear_stencil_buffer",
+  "stencil": 0
+}

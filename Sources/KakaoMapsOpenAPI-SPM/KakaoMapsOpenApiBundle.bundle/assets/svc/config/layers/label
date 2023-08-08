@@ -1,0 +1,17 @@
+[
+  {
+    "type": "label",
+    "policy": {
+      "type": "keeping_visible_node_zoom_in",
+      "keep_max_level": true
+    },
+    "content": {
+      "reader": "json_to_poi_shape",
+      "priority": "high",
+      "memory_cache": false,
+      "disk_cache": true
+    },
+    "clickable": true
+  }
+]
+

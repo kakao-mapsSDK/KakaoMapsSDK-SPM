@@ -1,0 +1,20 @@
+[
+  {
+    "type": "pass",
+    "vp": "billboard_sprite_image/billboard_sprite_image_vp",
+    "fp": "billboard_sprite_image/billboard_sprite_image_fp",
+    "metal": "billboard_sprite_image/billboard_sprite_image.metal",
+    "vertex_preset": "P4N4",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    },
+    "cull": "none"
+  }
+]

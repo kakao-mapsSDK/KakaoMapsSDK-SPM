@@ -1,0 +1,6 @@
+[
+  {
+    "type": "command",
+    "metal": "clear_depth_buffer/clear_depth_buffer.metal"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "pass",
+    "vp": "raster_overlay/tile_image_vp",
+    "fp": "raster_overlay/tile_image_fp",
+    "metal": "raster_overlay/tile_image.metal",
+    "vertex_preset": "PT",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    },
+    "cull" : "none"
+  }
+]

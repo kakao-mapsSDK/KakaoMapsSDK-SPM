@@ -1,0 +1,35 @@
+[
+  {
+    "type": "pass",
+    "vp": "raster_normal/raster_normal_vp",
+    "fp": "raster_normal/raster_normal_fp",
+    "metal": "raster_normal/raster_normal.metal",
+    "vertex_preset": "PT",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    },
+    "stencil": {
+      "enable": true,
+      "write": 255,
+      "compare": "not_equal",
+      "ref": 1,
+      "mask": 255,
+      "s_fail": "set",
+      "z_fail": "set",
+      "z_pass": "set"
+    }
+  },
+  {
+    "type": "command",
+    "command": "clear_stencil_buffer",
+    "metal": "clear_stencil_buffer/clear_stencil_buffer.metal",
+    "stencil": 0
+  }
+]

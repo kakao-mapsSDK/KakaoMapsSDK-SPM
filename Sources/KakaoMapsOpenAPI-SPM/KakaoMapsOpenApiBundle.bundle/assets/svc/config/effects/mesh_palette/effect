@@ -1,0 +1,47 @@
+[
+    {
+      "type": "command",
+      "command": "polygon_offset",
+      "offset": 0.75,
+      "unit": 1
+    },
+    {
+        "type": "pass",
+        "vp": "mesh_palette/mesh_palette_vp",
+        "fp": "mesh_palette/mesh_palette_fp",
+        "depth": {
+          "write": true,
+          "compare": "less"
+        },
+        "blend": {
+          "source": "source_alpha",
+          "dest": "one_minus_source_alpha",
+          "source_alpha": "one",
+          "dest_alpha": "one_minus_source_alpha"
+        }
+    },
+    {
+      "type": "command",
+      "command": "polygon_offset",
+      "offset": 0,
+      "unit": 0
+    },
+    {
+        "type": "pass",
+        "suffix_name": "edge",
+        "primitive": "lines",
+        "vp": "mesh_palette/mesh_edge_palette_vp",
+        "fp": "mesh_palette/mesh_edge_palette_fp",
+        "depth": {
+          "write": false,
+          "compare": "less"
+        },
+        "blend": {
+          "source": "source_alpha",
+          "dest": "one_minus_source_alpha",
+          "source_alpha": "one",
+          "dest_alpha": "one_minus_source_alpha"
+        }
+    }
+]
+

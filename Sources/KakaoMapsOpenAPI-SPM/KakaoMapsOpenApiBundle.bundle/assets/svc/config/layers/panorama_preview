@@ -1,0 +1,15 @@
+[
+  {
+    "type": "panorama_preview",
+    "policy": {
+      "type": "panorama_preview",
+      "keep_max_level": true
+    },
+    "content": {
+      "reader": "preview_image_to_panorama_prev_shape",
+      "priority": "high",
+      "memory_cache": true,
+      "disk_cache": false
+    }
+  }
+]

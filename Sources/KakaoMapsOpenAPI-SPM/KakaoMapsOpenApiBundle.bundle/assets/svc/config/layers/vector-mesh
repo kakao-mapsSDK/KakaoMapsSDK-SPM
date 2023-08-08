@@ -1,0 +1,21 @@
+[
+  {
+    "type": "k3g",
+    "policy": {
+      "type": "keeping_visible_node_zoom_inout",
+      "keep_max_level": true,
+      "animation": {
+         "type": "scale_up",
+         "duration": 1000
+      }
+
+    },
+    "content": {
+      "reader": "k3g_to_shape",
+      "priority": "normal",
+      "memory_cache": true,
+      "disk_cache": true
+    }
+  }
+]
+

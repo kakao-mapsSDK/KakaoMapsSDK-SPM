@@ -1,0 +1,21 @@
+[
+  {
+    "type": "pass",
+    "vp": "label_image/label_image_vp",
+    "fp": "label_image/label_image_fp",
+    "metal": "label_image/label_image.metal",
+    "vertex_preset": "P4Cb4",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    },
+    "cull": "none"
+  }
+]
+

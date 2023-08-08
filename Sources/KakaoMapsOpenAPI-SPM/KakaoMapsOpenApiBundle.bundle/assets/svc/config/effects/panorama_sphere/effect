@@ -1,0 +1,19 @@
+[
+  {
+    "type": "pass",
+    "vp": "panorama_sphere/panorama_sphere_vp",
+    "fp": "panorama_sphere/panorama_sphere_fp",
+    "metal": "panorama_sphere/panorama_sphere.metal",
+    "vertex_preset": "PTD",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "panorama_masking",
+    "policy": {
+      "type": "panorama_masking",
+      "keep_max_level": true
+    },
+    "content": {
+      "reader": "tile_image_to_panorama_tile_shape",
+      "priority": "normal",
+      "memory_cache": true,
+      "disk_cache": false
+    }
+  }
+]

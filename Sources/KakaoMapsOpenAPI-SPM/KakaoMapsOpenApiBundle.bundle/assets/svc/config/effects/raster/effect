@@ -1,0 +1,13 @@
+[
+  {
+    "type": "pass",
+    "vp": "raster/tile_image_vp",
+    "fp": "raster/tile_image_fp",
+    "metal": "raster/tile_image.metal",
+    "vertex_preset": "PT",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    }
+  }
+]

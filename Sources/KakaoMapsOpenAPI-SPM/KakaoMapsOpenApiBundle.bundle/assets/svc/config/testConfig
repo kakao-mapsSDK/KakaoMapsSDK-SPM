@@ -1,0 +1,169 @@
+
+{
+  "certification": true,
+  "terrain": "epsg5181",
+  "technique": "vectormap",
+  "maps": {
+    "basemap": {
+      "name": "basemap",
+      "layers": [
+        {
+          "type": "shape",
+          "name": "landcover",
+          "uri": {
+            "scheme": "http",
+            "host": "test-prism.tefiti.daumtools.com",
+            "path": "tile/ndm/v3/styleBuildId/47",
+            "extension": "k3g",
+            "params": [
+              {
+                "name": "ck",
+                "value": "0"
+              }
+            ]
+          },
+          "layer": "basemap_k3g",
+          "effect": "landcover",
+          "style": "http://test-prism.tefiti.daumtools.com/tile/ndm/v3/styleBuildId/47/style.json"
+        },
+        {
+          "type": "shape",
+          "name": "vector-mesh",
+          "uri": {
+            "scheme": "http",
+            "host": "map|4|.daumcdn.net",
+            "path": "map_d3b/v3b/19oct9/",
+            "extension": "d3b",
+            "params": [
+              {
+                "name": "ck",
+                "value": "0"
+              }
+            ]
+          },
+          "layer": "vector-mesh",
+          "effect": "vector-mesh",
+          "style": ""
+        },
+        {
+          "name": "landcover_label",
+          "uri": {
+            "scheme": "http",
+            "host": "vectormap-poi.kakao.com",
+            "path": "poi/D_vec_poi",
+            "extension": "json",
+            "params": [
+              {
+                "name": "ck",
+                "value": "0"
+              }
+            ]
+          },
+          "strategies": [
+            {
+              "name": "address",
+              "z_order": 3000
+            },
+            {
+              "name": "bus_stop",
+              "z_order": 2900
+            },
+            {
+              "name": "platform",
+              "z_order": 2700
+            },
+            {
+              "name": "subway_entrance",
+              "z_order": 2600
+            },
+            {
+              "name": "brand",
+              "z_order": 2500
+            },
+            {
+              "name": "place",
+              "z_order": 2400
+            },
+            {
+              "name": "climb",
+              "z_order": 2300
+            },
+            {
+              "name": "sub",
+              "z_order": 2100
+            },
+            {
+              "name": "landcover",
+              "z_order": 2000
+            },
+            {
+              "name": "land_number",
+              "z_order": 1900
+            },
+            {
+              "name": "sub",
+              "z_order": 1800
+            },
+            {
+              "name": "apart_area",
+              "z_order": 1700
+            },
+            {
+              "name": "dong",
+              "z_order": 1600
+            },
+            {
+              "name": "donglv3",
+              "z_order": 1500
+            },
+            {
+              "name": "address_map",
+              "z_order": 1400
+            },
+            {
+              "name": "building_entrance",
+              "z_order": 1300
+            },
+            {
+              "name": "road_info",
+              "z_order": 1200
+            }
+          ],
+          "layer": "basemap_label",
+          "effect": "label",
+          "type": "label"
+        }
+      ]
+    },
+    "overlays": [
+      {
+        "name": "traffic",
+        "layers": [
+          {
+            "type": "shape",
+            "style": "http://k3g.dev.daumkakao.io/realtime/v1/k3g/ctt/style.json",
+            "shapes": [
+              {
+                "name": "ctt",
+                "uri": {
+                  "scheme": "http",
+                  "host": "k3g.dev.daumkakao.io",
+                  "path": "realtime/v1/k3g/ctt",
+                  "extension": "k3g",
+                  "params": [
+                    {
+                      "name": "ck",
+                      "value": "0"
+                    }
+                  ]
+                },
+                "layer": "overlay_k3g",
+                "effect": "landcover"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

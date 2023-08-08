@@ -1,0 +1,20 @@
+[
+  {
+    "type": "pass",
+    "vp": "sprite_image/sprite_image_vp",
+    "fp": "sprite_image/sprite_image_fp",
+    "metal": "sprite_image/sprite_image.metal",
+    "vertex_preset": "P4T",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    },
+    "cull": "none"
+  }
+]

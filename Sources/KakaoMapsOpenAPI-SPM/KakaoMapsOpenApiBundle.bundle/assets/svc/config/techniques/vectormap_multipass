@@ -1,0 +1,94 @@
+{
+  "render_targets": [
+    {
+      "type": "default"
+    },
+    {
+      "type": "texture",
+      "minFilter": "Linear",
+      "magFilter": "Linear",
+      "wrapS": "Clamp",
+      "wrapT": "Clamp"
+    }
+  ],
+  "render_pass": [
+    {
+        "render_target": 1,
+        "clear_color": "0xF7F7EFFF",
+        "clear_depth": 1,
+        "clear_stencil": 0,
+        "operations": [
+            {
+              "type": "effect",
+              "name": "vector",
+              "effect": "vector_per_level_palette",
+              "z_order": 100
+            }
+            
+        ]
+    },
+    {
+      "render_target": 0,
+      "clear_color": "0xF7F7EFFF",
+      "clear_depth": 1,
+      "clear_stencil": 0,
+      "operations": [
+        {
+            "type": "effect",
+            "name": "screen_quad",
+            "effect": "screen_quad",
+            "z_order": 100
+        },
+        {
+              "type": "effect",
+              "name": "vector_overlay",
+              "effect": "vector_per_level_palette",
+              "z_order": 200
+        },
+        {
+          "type": "effect",
+          "name": "route",
+          "effect": "route",
+          "z_order": 500
+        },
+        {
+          "type": "effect",
+          "name": "vector_route",
+          "effect": "vector_per_level_palette",
+          "z_order": 600
+        },
+        {
+          "type": "effect",
+          "name": "raster-normal",
+          "effect": "raster_normal",
+          "z_order": 800
+        },
+        {
+          "type": "effect",
+          "name": "vector-mesh",
+          "effect": "vector_mesh_per_level_palette",
+          "z_order": 1000
+        },
+        {
+          "type": "effect",
+          "name": "label",
+          "effect": "label_image",
+          "z_order": 3000
+        },
+        {
+          "type": "effect",
+          "name": "sprite",
+          "effect": "sprite_image",
+          "z_order": 9000
+        },
+        {
+          "type": "effect",
+          "name": "dim_screen",
+          "effect": "dim_screen",
+          "z_order": 99999999
+        }
+      ]
+    }
+  ]
+}
+

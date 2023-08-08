@@ -1,0 +1,26 @@
+{
+  "type": "3d",
+  "tile_system": "kakao",
+  "origin": [
+    20037508,
+    20037508
+  ],
+  "min_coord": [
+    13073366.820844021,
+    3288656.0601283647
+  ],
+  "max_coord": [
+    15554764.770706793,
+    5477891.5067016548
+  ],
+  "base_level": 0,
+  "camera_min_level" : 6,
+  "min_level": 0,
+  "max_level": 19,
+  "root_size": 40075016.6855784,
+  "root_scale": 1222.992453,
+  "visible_tile_resolution": 512,
+  "unvisible_tile_resolution": 1536
+}
+
+

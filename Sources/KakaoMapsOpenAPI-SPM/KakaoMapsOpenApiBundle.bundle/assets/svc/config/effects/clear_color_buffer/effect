@@ -1,0 +1,6 @@
+[
+  {
+    "type": "command",
+    "metal": "clear_color_buffer/clear_color_buffer.metal"
+  }
+]

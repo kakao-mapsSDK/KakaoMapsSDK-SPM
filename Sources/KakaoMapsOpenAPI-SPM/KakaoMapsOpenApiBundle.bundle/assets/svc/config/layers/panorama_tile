@@ -1,0 +1,16 @@
+[
+  {
+    "type": "panorama_tile",
+    "policy": {
+      "type": "panorama_tile",
+      "keep_max_level": true
+    },
+    "content": {
+      "reader": "tile_image_to_panorama_tile_shape",
+      "priority": "normal",
+      "memory_cache": true,
+      "disk_cache": false
+    },
+    "check_frustum": true
+  }
+]

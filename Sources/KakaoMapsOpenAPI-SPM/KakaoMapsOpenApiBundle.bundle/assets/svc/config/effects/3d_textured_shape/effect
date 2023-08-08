@@ -1,0 +1,19 @@
+[
+  {
+    "type": "pass",
+    "vp": "3d_textured_shape/3d_textured_shape_vp",
+    "fp": "3d_textured_shape/3d_textured_shape_fp",
+    "metal": "3d_textured_shape/3d_textured_shape.metal",
+    "vertex_preset": "PT",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    }
+  }
+]

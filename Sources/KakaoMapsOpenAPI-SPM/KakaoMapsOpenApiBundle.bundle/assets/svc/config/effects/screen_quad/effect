@@ -1,0 +1,20 @@
+[
+  {
+    "type": "screen_quad_pass",
+    "vp": "screen_quad/screen_quad_vp",
+    "fp": "screen_quad/screen_quad_fp",
+    "metal": "screen_quad/screen_quad.metal",
+    "vertex_preset": "PT",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    },
+    "cull": "none"
+  }
+]

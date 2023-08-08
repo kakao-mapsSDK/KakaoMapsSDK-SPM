@@ -1,0 +1,19 @@
+[
+  {
+    "type": "k3g",
+    "policy": {
+      "type": "visible_adjacent_node",
+      "range" : 3,
+      "keep_max_level": true
+    },
+    "content": {
+      "reader": "k3g_to_shape",
+      "priority": "high",
+      "memory_cache": true,
+      "disk_cache": true
+    }
+  }
+]
+
+
+

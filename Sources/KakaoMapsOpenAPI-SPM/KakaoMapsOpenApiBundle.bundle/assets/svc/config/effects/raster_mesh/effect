@@ -1,0 +1,19 @@
+[
+  {
+    "type": "pass",
+    "vp": "raster_mesh/raster_mesh_vp",
+    "fp": "raster_mesh/raster_mesh_fp",
+    "metal": "raster_mesh/raster_mesh.metal",
+    "vertex_preset": "Ps4Ts2",
+    "depth": {
+      "write": true,
+      "compare": "less"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    }
+  }
+]

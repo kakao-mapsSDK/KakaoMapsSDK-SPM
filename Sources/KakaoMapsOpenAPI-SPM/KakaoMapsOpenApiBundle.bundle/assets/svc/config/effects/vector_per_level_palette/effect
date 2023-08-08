@@ -1,0 +1,19 @@
+[
+  {
+    "type": "pass",
+    "vp": "vector_per_level_palette/vector_per_level_palette_dash_vp",
+    "fp": "vector_per_level_palette/vector_per_level_palette_dash_fp",
+    "metal": "vector_per_level_palette/vector_per_level_palette_dash.metal",
+    "vertex_preset": "DFVertex",
+    "depth": {
+      "write": false,
+      "compare": "always"
+    },
+    "blend": {
+      "source": "source_alpha",
+      "dest": "one_minus_source_alpha",
+      "source_alpha": "one",
+      "dest_alpha": "one_minus_source_alpha"
+    }
+  }
+]

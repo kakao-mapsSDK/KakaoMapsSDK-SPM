@@ -1,0 +1,53 @@
+{
+  "render_targets": [
+    {
+      "type": "default"
+    }
+  ],
+  "render_pass": [
+    {
+      "render_target": 0,
+      "clear_color": "0xF7F7EFFF",
+      "clear_depth": 1,
+      "clear_stencil": 0,
+      "operations": [
+        {
+          "type": "effect",
+          "name": "panorama_tile",
+          "effect": "panorama_sphere",
+          "z_order": 1000
+        },
+        {
+          "type": "effect",
+          "name": "panorama_masking",
+          "effect": "panorama_sphere",
+          "z_order": 2000
+        },
+        {
+          "type": "effect",
+          "name": "shape",
+          "effect": "3d_textured_shape",
+          "z_order": 9000
+        },
+        {
+          "type": "effect",
+          "name": "sprite",
+          "effect": "sprite_image",
+          "z_order": 10000
+        },
+        {
+          "type": "effect",
+          "name": "overlay_shape",
+          "effect": "3d_textured_shape",
+          "z_order": 11000
+        },
+        {
+          "type": "effect",
+          "name": "overlay_sprite",
+          "effect": "sprite_image",
+          "z_order": 12000
+        }
+      ]
+    }
+  ]
+}
