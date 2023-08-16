@@ -39,6 +39,9 @@ typedef NS_ENUM(NSInteger, Result) {
 - (void)addViews;
 
 @optional
+/// addView 실패시 호출.
+- (void)addViewFailed:(NSString * _Nonnull)viewName viewInfoName:(NSString * _Nonnull)viewInfoName;
+
 /// MapContainer 크기 변경시 호출.
 - (void)containerDidResized:(CGSize)size;
 
