@@ -103,13 +103,27 @@ typedef NS_ENUM(NSInteger, Result) {
 #pragma mark - View Controls
 
 /// SubView(ViewBase)를 추가한다.
-/// - parameter: config 추가할 subView에 대한 config
-- (Result)addView:(ViewInfo * _Nonnull)config;
+/// - parameter config: 추가할 subView에 대한 config
+- (Result)addView:(ViewInfo * _Nonnull)viewInfo;
+
+/// SubView(ViewBase)를 추가한다.
+/// - parameter config: 추가할 subView에 대한 config
+/// - parameter timeoutInMillis: 네트웍을 통한 viewInfo 수신 타임아웃 시간. 단위 millisecond. 기본값 5000.
+- (Result)addView:(ViewInfo * _Nonnull)viewInfo
+          timeout:(NSUInteger)timeoutInMillis;
+
+/// SubView(ViewBase)를 추가한다.
+/// - parameter config : 추가할 subView에 대한 config
+/// - parameter viewSize : 추가할 subView에 대한 size
+/// - parameter timeoutInMillis: 네트웍을 통한 viewInfo 수신 타임아웃 시간. 단위 millisecond. 기본값 5000.
+- (Result)addView:(ViewInfo * _Nonnull)viewInfo
+         viewSize:(CGSize)viewSize
+          timeout:(NSUInteger)timeoutInMillis;
 
 /// SubView(ViewBase)를 특정 사이즈로 추가한다.
-/// - parameter: config 추가할 subView에 대한 config
-/// - parameter: 추가할 subView에 대한 size
-- (Result)addView:(ViewInfo * _Nonnull)config
+/// - parameter config :  추가할 subView에 대한 config
+/// - parameter viewSize : 추가할 subView에 대한 size
+- (Result)addView:(ViewInfo * _Nonnull)viewInfo
          viewSize:(CGSize)viewSize;
 
 /// SubView를 제거한다.
