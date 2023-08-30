@@ -18336,6 +18336,95 @@
           },
           {
             "kind": "Var",
+            "name": "positionOffset",
+            "printedName": "positionOffset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)InfoWindow(py)positionOffset",
+            "mangledName": "$s12KakaoMapsSDK10InfoWindowC14positionOffsetSo7CGPointVvp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)InfoWindow(im)positionOffset",
+                "mangledName": "$s12KakaoMapsSDK10InfoWindowC14positionOffsetSo7CGPointVvg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)InfoWindow(im)setPositionOffset:",
+                "mangledName": "$s12KakaoMapsSDK10InfoWindowC14positionOffsetSo7CGPointVvs",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK10InfoWindowC14positionOffsetSo7CGPointVvM",
+                "mangledName": "$s12KakaoMapsSDK10InfoWindowC14positionOffsetSo7CGPointVvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "position",
             "printedName": "position",
             "children": [
@@ -54647,36 +54736,50 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
+      "kind": "FloatLiteral",
+      "offset": 592,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
+      "kind": "FloatLiteral",
+      "offset": 600,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 2943,
+      "offset": 3519,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 2977,
+      "offset": 3553,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 2985,
+      "offset": 3561,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3967,
+      "offset": 4543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3984,
+      "offset": 4560,
       "length": 5,
       "value": "false"
     },

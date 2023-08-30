@@ -685,6 +685,10 @@ extension KakaoMapsSDK.KakaoMap {
     @objc get
     @objc set
   }
+  @objc public var positionOffset: CoreFoundation.CGPoint {
+    @objc get
+    @objc set
+  }
   @objc public var position: KakaoMapsSDK.MapPoint? {
     @objc get
     @objc set

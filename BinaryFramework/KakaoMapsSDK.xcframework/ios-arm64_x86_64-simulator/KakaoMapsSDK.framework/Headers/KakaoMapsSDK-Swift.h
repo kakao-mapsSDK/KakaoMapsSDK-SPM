@@ -1151,6 +1151,10 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK10InfoWindow")
 /// tail의 원점(origin) 으로부터 body의 원점이 떨어진 위치.
 /// InfoWindow의 tail은 원점이 position으로 지정된 위치에 놓이고 body는 body의 원점이 tail 원점으로부터 offset만큼 떨어진 위치에 놓이게 된다.
 @property (nonatomic) CGPoint bodyOffset;
+/// InfoWindow의 position offset
+/// tail의 원점(origin) 이 position 으로 부터 떨어진 위치.
+/// InfoWindow의 tail은 원점이 position으로 지정된 위치에서 position offset 만큼 떨어진 위치에 놓이고 body는 body의 원점이 tail 원점으로부터 offset만큼 떨어진 위치에 놓이게 된다.
+@property (nonatomic) CGPoint positionOffset;
 /// InfoWindow가 표시 될 위치. 값을 셋팅하면, 별도의 updateGui() 호출 없이도 바로 반영된다.
 @property (nonatomic, strong) MapPoint * _Nullable position;
 /// InfoWindow를 화면에 표시하고, InfoWinodw가 표시되는 영역으로 자동으로 이동한다.
@@ -6094,6 +6098,10 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK10InfoWindow")
 /// tail의 원점(origin) 으로부터 body의 원점이 떨어진 위치.
 /// InfoWindow의 tail은 원점이 position으로 지정된 위치에 놓이고 body는 body의 원점이 tail 원점으로부터 offset만큼 떨어진 위치에 놓이게 된다.
 @property (nonatomic) CGPoint bodyOffset;
+/// InfoWindow의 position offset
+/// tail의 원점(origin) 이 position 으로 부터 떨어진 위치.
+/// InfoWindow의 tail은 원점이 position으로 지정된 위치에서 position offset 만큼 떨어진 위치에 놓이고 body는 body의 원점이 tail 원점으로부터 offset만큼 떨어진 위치에 놓이게 된다.
+@property (nonatomic) CGPoint positionOffset;
 /// InfoWindow가 표시 될 위치. 값을 셋팅하면, 별도의 updateGui() 호출 없이도 바로 반영된다.
 @property (nonatomic, strong) MapPoint * _Nullable position;
 /// InfoWindow를 화면에 표시하고, InfoWinodw가 표시되는 영역으로 자동으로 이동한다.
