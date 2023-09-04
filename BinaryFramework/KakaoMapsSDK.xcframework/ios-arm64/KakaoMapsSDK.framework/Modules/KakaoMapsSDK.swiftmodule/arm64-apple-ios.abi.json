@@ -18658,6 +18658,36 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rawPosition",
+            "printedName": "rawPosition()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KakaoMapsSDK.MapPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MapPoint",
+                    "printedName": "KakaoMapsSDK.MapPoint",
+                    "usr": "c:@M@KakaoMapsSDK@objc(cs)MapPoint"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)InfoWindow(im)rawPosition",
+            "mangledName": "$s12KakaoMapsSDK10InfoWindowC11rawPositionAA8MapPointCSgyF",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -19304,6 +19334,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -29676,7 +29716,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(viewName:viewInfoName:enabled:dev:)",
+            "printedName": "init(viewName:viewInfoName:enabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29703,26 +29743,21 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@KakaoMapsSDK@objc(cs)RoadviewInfo(im)initWithViewName:viewInfoName:enabled:dev:",
-            "mangledName": "$s12KakaoMapsSDK12RoadviewInfoC8viewName0feG07enabled3devACSS_SSS2btcfc",
+            "usr": "c:@CM@KakaoMapsSDK@objc(cs)RoadviewInfo(im)initWithViewName:viewInfoName:enabled:",
+            "mangledName": "$s12KakaoMapsSDK12RoadviewInfoC8viewName0feG07enabledACSS_SSSbtcfc",
             "moduleName": "KakaoMapsSDK",
-            "objc_name": "initWithViewName:viewInfoName:enabled:dev:",
+            "objc_name": "initWithViewName:viewInfoName:enabled:",
             "declAttributes": [
+              "Dynamic",
+              "Convenience",
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
-            "init_kind": "Designated"
+            "isFromExtension": true,
+            "init_kind": "Convenience"
           }
         ],
         "declKind": "Class",
@@ -54751,35 +54786,35 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3519,
+      "offset": 3680,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3553,
+      "offset": 3714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3561,
+      "offset": 3722,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 4543,
+      "offset": 4704,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 4560,
+      "offset": 4721,
       "length": 5,
       "value": "false"
     },
@@ -54810,6 +54845,34 @@
       "offset": 708,
       "length": 8,
       "value": "\"KakaoMapsSDK.WaveText\""
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo+OpenSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 10,
+      "value": "\"roadview\""
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo+OpenSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 354,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo+OpenSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo+OpenSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 465,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
@@ -55633,28 +55696,35 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 675,
       "length": 10,
       "value": "\"roadview\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 740,
+      "offset": 719,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 781,
+      "offset": 753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 790,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
       "kind": "StringLiteral",
-      "offset": 819,
+      "offset": 826,
       "length": 10,
       "value": "\"roadview\""
     },

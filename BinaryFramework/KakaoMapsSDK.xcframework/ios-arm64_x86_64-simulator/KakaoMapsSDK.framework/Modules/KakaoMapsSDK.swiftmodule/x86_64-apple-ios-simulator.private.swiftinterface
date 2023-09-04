@@ -696,6 +696,7 @@ extension KakaoMapsSDK.KakaoMap {
   @objc public func showWithAutoMove(callback: (() -> Swift.Void)? = nil)
   @objc override public func getChild(_ componentId: Swift.String) -> KakaoMapsSDK.GuiComponentBase?
   @objc public func moveAt(_ position: KakaoMapsSDK.MapPoint, duration: Swift.UInt)
+  @objc public func rawPosition() -> KakaoMapsSDK.MapPoint?
   @objc deinit
 }
 extension KakaoMapsSDK.KakaoMap {
@@ -723,6 +724,9 @@ extension KakaoMapsSDK.KakaoMap {
     @objc set
   }
   @objc deinit
+}
+extension KakaoMapsSDK.RoadviewInfo {
+  @objc convenience dynamic public init(viewName: Swift.String, viewInfoName: Swift.String = "roadview", enabled: Swift.Bool = true)
 }
 @objc @_hasMissingDesignatedInitializers open class LodPoi : ObjectiveC.NSObject, KakaoMapsSDK.Label {
   @objc deinit
@@ -1092,7 +1096,6 @@ extension KakaoMapsSDK.KakaoMap {
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class RoadviewInfo : KakaoMapsSDK.ViewInfo {
-  @objc public init(viewName: Swift.String, viewInfoName: Swift.String = "roadview", enabled: Swift.Bool = true, dev: Swift.Bool = false)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class MapCoordConverter : ObjectiveC.NSObject {

@@ -1174,6 +1174,7 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK10InfoWindow")
 /// \param duration 이동시킬 시간
 ///
 - (void)moveAt:(MapPoint * _Nonnull)position duration:(NSUInteger)duration;
+- (MapPoint * _Nullable)rawPosition SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -3747,16 +3748,11 @@ SWIFT_PROTOCOL("_TtP12KakaoMapsSDK21RoadviewEventDelegate_")
 /// 로드뷰 viewInfo. Roadview로 view가 생성된다.
 SWIFT_CLASS("_TtC12KakaoMapsSDK12RoadviewInfo")
 @interface RoadviewInfo : ViewInfo
-/// Initializer
-/// \param viewName view의 이름
-///
-/// \param viewInfoName viewInfo의 이름. 미지정시 type에 따른 기본값.
-///
-/// \param enabled 초기 활성화 여부. 기본값은 true.
-///
-/// \param dev 개발용 viewInfo 서버에 접근. 기본값 false.
-///
-- (nonnull instancetype)initWithViewName:(NSString * _Nonnull)viewName viewInfoName:(NSString * _Nonnull)viewInfoName enabled:(BOOL)enabled dev:(BOOL)dev OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface RoadviewInfo (SWIFT_EXTENSION(KakaoMapsSDK))
+- (nonnull instancetype)initWithViewName:(NSString * _Nonnull)viewName viewInfoName:(NSString * _Nonnull)viewInfoName enabled:(BOOL)enabled;
 @end
 
 
