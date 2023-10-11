@@ -1,7 +1,7 @@
 framework module KakaoMapsSDK {
   umbrella header "KakaoMapsSDK.h"
-
   export *
+
   module * { export * }
 }
 

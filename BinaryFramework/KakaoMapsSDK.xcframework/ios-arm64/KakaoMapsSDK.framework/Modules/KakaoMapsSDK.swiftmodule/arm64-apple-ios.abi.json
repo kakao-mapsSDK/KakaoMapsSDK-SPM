@@ -56863,6 +56863,27 @@
       "value": "\"KakaoMapsAPI_SPM_KakaoMapsAPI-SPM.bundle\""
     },
     {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
+      "kind": "StringLiteral",
+      "offset": 1910,
+      "length": 20,
+      "value": "\"KakaoMapsSDKBundle\""
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
+      "kind": "StringLiteral",
+      "offset": 1940,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
       "kind": "IntegerLiteral",
       "offset": 4336,
