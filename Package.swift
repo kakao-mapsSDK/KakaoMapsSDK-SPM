@@ -19,7 +19,8 @@ let package = Package(
         .target(
             name: "KakaoMapsSDK-SPM",
             dependencies: ["framework"],
-            resources: [.copy("KakaoMapsSDKBundle.bundle/assets")]),
+            resources: [.copy("KakaoMapsSDKBundle.bundle/assets"),
+                        .copy("KakaoMapsSDKBundle.bundle/KakaoMapsSDKBundle.plist")]),
         .binaryTarget(name: "framework", path: "BinaryFramework/KakaoMapsSDK.xcframework")
     ],
     swiftLanguageVersions: [.v5]
