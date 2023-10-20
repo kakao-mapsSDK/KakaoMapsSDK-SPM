@@ -56865,21 +56865,21 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
+      "offset": 1731,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
-      "length": 20,
-      "value": "\"KakaoMapsSDKBundle\""
+      "offset": 1920,
+      "length": 27,
+      "value": "\"assets\/KakaoMapsSDKBundle\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 1957,
       "length": 7,
       "value": "\"plist\""
     },
