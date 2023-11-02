@@ -1,4 +1,4 @@
-# OSS Notice | KakaoMapApi-iOS-v2 #
+# OSS Notice | KakaoMapsSDK #
 
 This application is Copyright © Kakao Corp. All rights reserved.
 
