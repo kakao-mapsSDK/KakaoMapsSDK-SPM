@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KakaoMapsSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -97,6 +97,19 @@ import _SwiftConcurrencyShims
   }
   @objc public var styleID: Swift.String {
     @objc get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ZoneLinkInfo : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc convenience public init(zoneId: Swift.String, detailId: Swift.String)
+  @objc public var zoneId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var detailId: Swift.String {
+    @objc get
+    @objc set
   }
   @objc deinit
 }
@@ -204,7 +217,7 @@ extension KakaoMapsSDK.MapviewInfo {
   @objc optional func roadviewDidResized(_ roadview: KakaoMapsSDK.Roadview)
   @objc optional func panoramaUpdated(_ panoId: Swift.String)
   @objc optional func roadviewFocusDidChanged(roadview: KakaoMapsSDK.Roadview, focus: Swift.Bool)
-  @objc func roadviewResultDidReceived(roadview: KakaoMapsSDK.Roadview, panoID: Swift.String, position: KakaoMapsSDK.MapPoint)
+  @objc func roadviewResultDidReceived(roadview: KakaoMapsSDK.Roadview, panoID: Swift.String, date: Swift.String, position: KakaoMapsSDK.MapPoint)
   @objc optional func noRoadviewResult(_ roadview: KakaoMapsSDK.Roadview)
   @objc optional func roadviewRequestDidFailed(_ roadview: KakaoMapsSDK.Roadview)
   @objc optional func invalidRoadviewRequest(_ roadview: KakaoMapsSDK.Roadview)
@@ -647,6 +660,8 @@ extension KakaoMapsSDK.KakaoMap {
   public func addViewResizedEventHandler<U>(target: U, handler: @escaping (U) -> (KakaoMapsSDK.KakaoMap) -> Swift.Void) -> any KakaoMapsSDK.DisposableEventHandler where U : AnyObject
   public func addMarginUpdatedEventHandler<U>(target: U, handler: @escaping (U) -> (KakaoMapsSDK.KakaoMap) -> Swift.Void) -> any KakaoMapsSDK.DisposableEventHandler where U : AnyObject
   public func addCompassTappedEventHandler<U>(target: U, handler: @escaping (U) -> (KakaoMapsSDK.KakaoMap) -> Swift.Void) -> any KakaoMapsSDK.DisposableEventHandler where U : AnyObject
+  public func addEnterZoneEventHandler<U>(target: U, handler: @escaping (U) -> (KakaoMapsSDK.ZoneEnterEventParam) -> Swift.Void) -> any KakaoMapsSDK.DisposableEventHandler where U : AnyObject
+  public func addLeaveZoneEventHandler<U>(target: U, handler: @escaping (U) -> (KakaoMapsSDK.ZoneLeaveEventParam) -> Swift.Void) -> any KakaoMapsSDK.DisposableEventHandler where U : AnyObject
 }
 @objc open class PerLevelPolygonStyle : ObjectiveC.NSObject {
   @objc public init(color: UIKit.UIColor, strokeWidth: Swift.UInt, strokeColor: UIKit.UIColor, level: Swift.Int)
@@ -727,7 +742,7 @@ extension KakaoMapsSDK.KakaoMap {
   @objc deinit
 }
 extension KakaoMapsSDK.RoadviewInfo {
-  @objc convenience dynamic public init(viewName: Swift.String, viewInfoName: Swift.String = "roadview", enabled: Swift.Bool = true)
+  @objc convenience dynamic public init(viewName: Swift.String, appName: Swift.String = "roadview", viewInfoName: Swift.String = "roadview", enabled: Swift.Bool = true)
 }
 @objc @_hasMissingDesignatedInitializers open class LodPoi : ObjectiveC.NSObject, KakaoMapsSDK.Label {
   @objc deinit
@@ -1032,6 +1047,12 @@ extension KakaoMapsSDK.RoadviewInfo {
   @objc open func setGestureEnable(type gestureType: KakaoMapsSDK.GestureType, enable: Swift.Bool)
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers public class ZoneManager : ObjectiveC.NSObject {
+  @objc public func setZoneCheckRectScale(zoneType: Swift.String, level: Swift.Int, scale: KakaoMapsSDK.Vector2)
+  @objc public func showZoneDetail(zoneType: Swift.String, zoneId: Swift.String, detailId: Swift.String)
+  @objc public func hideZoneDetail(zoneType: Swift.String)
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers open class GuiText : KakaoMapsSDK.GuiComponentBase {
   @objc public init(_ componentId: Swift.String)
   @objc open func addText(text: Swift.String, style: KakaoMapsSDK.TextStyle = TextStyle())
@@ -1334,6 +1355,21 @@ public struct GuiMoveEventParam {
   public let gui: KakaoMapsSDK.GuiBase
   public let position: KakaoMapsSDK.MapPoint
 }
+public struct ZoneEnterEventParam {
+  public let kakaoMap: KakaoMapsSDK.KakaoMap
+  public let zoneType: Swift.String
+  public let zoneId: Swift.String
+  public let zoneDetailId: Swift.String
+  public let zoneDetails: [Swift.String]
+  public let zoneLinkInfos: [Swift.String : Swift.Array<KakaoMapsSDK.ZoneLinkInfo>]
+}
+public struct ZoneLeaveEventParam {
+  public let kakaoMap: KakaoMapsSDK.KakaoMap
+  public let zoneType: Swift.String
+  public let zoneId: Swift.String
+  public let zoneDetailId: Swift.String
+  public let zoneDetails: [Swift.String]
+}
 public protocol DisposableEventHandler {
   func dispose()
 }
@@ -1401,6 +1437,8 @@ public protocol DisposableEventHandler {
   @objc optional func cameraDidStopped(kakaoMap: KakaoMapsSDK.KakaoMap, by: KakaoMapsSDK.MoveBy)
   @objc optional func onViewInfoChanged(kakaoMap: KakaoMapsSDK.KakaoMap, viewInfoName: Swift.String)
   @objc optional func onViewInfoChangeFailure(kakaoMap: KakaoMapsSDK.KakaoMap, viewInfoName: Swift.String)
+  @objc optional func onEnterZone(kakaoMap: KakaoMapsSDK.KakaoMap, zoneType: Swift.String, zoneId: Swift.String, zoneDetailId: Swift.String, zoneDetails: [Swift.String], zoneLinkInfos: [Swift.String : Swift.Array<KakaoMapsSDK.ZoneLinkInfo>])
+  @objc optional func onLeaveZone(kakaoMap: KakaoMapsSDK.KakaoMap, zoneType: Swift.String, zoneId: Swift.String, zoneDetailId: Swift.String, zoneDetails: [Swift.String])
 }
 @objc @_hasMissingDesignatedInitializers open class KakaoMap : KakaoMapsSDK.ViewBase {
   @objc deinit
@@ -1411,14 +1449,19 @@ public protocol DisposableEventHandler {
     @objc get
     @objc set
   }
-  @objc open var minLevel: Swift.Int {
+  @objc public var minLevel: Swift.Int {
     @objc get
   }
-  @objc open var maxLevel: Swift.Int {
+  @objc public var maxLevel: Swift.Int {
     @objc get
   }
   @objc open var cameraMinLevel: Swift.Int {
     @objc get
+    @objc set
+  }
+  @objc open var cameraMaxLevel: Swift.Int {
+    @objc get
+    @objc set
   }
   @objc open var zoomLevel: Swift.Int {
     @objc get
@@ -1483,6 +1526,7 @@ public protocol DisposableEventHandler {
   @objc public func getTrackingManager() -> KakaoMapsSDK.TrackingManager
   @objc public func getRouteManager() -> KakaoMapsSDK.RouteManager
   @objc public func getGuiManager() -> KakaoMapsSDK.GuiManager
+  @objc public func getZoneManager() -> KakaoMapsSDK.ZoneManager
   @objc open var eventDelegate: (any KakaoMapsSDK.KakaoMapEventDelegate)? {
     @objc get
     @objc set

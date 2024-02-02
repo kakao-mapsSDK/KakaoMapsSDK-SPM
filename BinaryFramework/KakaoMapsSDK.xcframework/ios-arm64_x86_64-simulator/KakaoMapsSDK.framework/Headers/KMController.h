@@ -70,7 +70,7 @@ typedef NS_ENUM(NSInteger, Result) {
 /// Designated initializer.
 /// - parameter viewContainer: KMViewContainer
 /// - returns: KMController
-- (instancetype _Nullable)initWithViewContainer:(KMViewContainer *  _Nonnull)viewContainer;
+- (instancetype _Nonnull)initWithViewContainer:(KMViewContainer *  _Nonnull)viewContainer;
 
 #pragma mark - Engine Controls
 

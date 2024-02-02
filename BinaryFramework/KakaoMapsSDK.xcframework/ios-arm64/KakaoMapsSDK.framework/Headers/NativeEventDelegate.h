@@ -44,6 +44,19 @@ componentName:(NSString * _Nonnull)componentName
 
 - (void)onCameraCallback:(BOOL)finished;
 
+- (void)onZoneCreated:(NSString * _Nonnull)viewName
+             zoneType:(NSString * _Nonnull)zoneType
+               zoneId:(NSString * _Nonnull)zoneId
+         zoneDetailId:(NSString * _Nonnull)zoneDetailId
+          zoneDetails:(NSArray * _Nonnull)zoneDetails
+        zoneLinkInfos:(NSDictionary * _Nonnull)zoneLinkInfo;
+
+- (void)onZoneRemoved:(NSString * _Nonnull)viewName
+             zoneType:(NSString * _Nonnull)zoneType
+               zoneId:(NSString * _Nonnull)zoneId
+         zoneDetailId:(NSString * _Nonnull)zoneDetailId
+          zoneDetails:(NSArray * _Nonnull)zoneDetails;
+
 -( void )onRoadviewRequestResultReceived:(NSString * _Nonnull)panoID
                                 position:(MapPoint * _Nonnull)position
                                prevItems:(NSArray * _Nonnull)prevItems

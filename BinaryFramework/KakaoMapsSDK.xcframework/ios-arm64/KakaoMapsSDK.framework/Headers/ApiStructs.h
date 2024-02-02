@@ -10,6 +10,7 @@
 #define ApiStructs_h
 
 #import <Foundation/Foundation.h>
+#import "ApiEnums.h"
 
 /// Internal
 @protocol APIManagerProtocol<NSObject>
