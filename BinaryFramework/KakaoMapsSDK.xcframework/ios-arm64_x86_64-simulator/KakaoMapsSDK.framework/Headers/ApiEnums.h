@@ -10,6 +10,15 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, KAPhase) {
+    /// 지도
+    KAPhaseReal = 0,
+    /// 로드뷰
+    KAPhaseAlpha,
+    KAPhaseBeta,
+    KAPhaseSandBox
+};
+
 /// 지도 타입
 typedef NS_ENUM(NSInteger, MapType) {
     /// 지도

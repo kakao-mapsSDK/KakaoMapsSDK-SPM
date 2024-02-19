@@ -2323,7 +2323,8 @@
               "Dynamic",
               "ObjC",
               "Override",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -2359,7 +2360,8 @@
             "declAttributes": [
               "Convenience",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "init_kind": "Convenience"
           },
@@ -43832,6 +43834,169 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "KakaoMapsSDK",
+        "printedName": "KakaoMapsSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "InitSDK",
+            "printedName": "InitSDK(appKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK(cm)InitSDKWithAppKey:",
+            "mangledName": "$s12KakaoMapsSDKAAC04InitC06appKeyySS_tFZ",
+            "moduleName": "KakaoMapsSDK",
+            "static": true,
+            "objc_name": "InitSDKWithAppKey:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "GetAppKey",
+            "printedName": "GetAppKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK(cm)GetAppKey",
+            "mangledName": "$s12KakaoMapsSDKAAC9GetAppKeySSyFZ",
+            "moduleName": "KakaoMapsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KakaoMapsSDK",
+                "printedName": "KakaoMapsSDK.KakaoMapsSDK",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK(im)init",
+            "mangledName": "$s12KakaoMapsSDKAACABycfc",
+            "moduleName": "KakaoMapsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK",
+        "mangledName": "$s12KakaoMapsSDKAAC",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GuiButton",
         "printedName": "GuiButton",
         "children": [
@@ -55710,14 +55875,14 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneLinkInfo.swift",
       "kind": "StringLiteral",
-      "offset": 471,
+      "offset": 499,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneLinkInfo.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 522,
       "length": 2,
       "value": "\"\""
     },
@@ -58380,6 +58545,13 @@
       "offset": 535,
       "length": 13,
       "value": "\"KakaoMapsSDK.ShapeAnimator\""
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/KakaoMapsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiButton.swift",

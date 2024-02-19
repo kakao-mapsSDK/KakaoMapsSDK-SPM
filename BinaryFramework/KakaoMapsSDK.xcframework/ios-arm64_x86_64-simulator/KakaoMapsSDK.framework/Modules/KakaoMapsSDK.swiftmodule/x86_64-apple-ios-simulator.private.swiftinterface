@@ -1582,6 +1582,12 @@ public protocol DisposableEventHandler {
   }
   @objc deinit
 }
+@_inheritsConvenienceInitializers @objc public class KakaoMapsSDK : ObjectiveC.NSObject {
+  @objc public static func InitSDK(appKey: Swift.String)
+  @objc public static func GetAppKey() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers open class GuiButton : KakaoMapsSDK.GuiImage {
   @objc override public init(_ componentId: Swift.String)
   @objc open var pressedImage: UIKit.UIImage? {

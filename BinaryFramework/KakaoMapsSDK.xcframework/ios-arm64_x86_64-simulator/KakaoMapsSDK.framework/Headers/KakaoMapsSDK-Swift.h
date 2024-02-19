@@ -1641,6 +1641,27 @@ SWIFT_PROTOCOL("_TtP12KakaoMapsSDK21KakaoMapEventDelegate_")
 @end
 
 
+/// KakaoMapsSDK
+/// SDK 사용을 위한 초기화 클래스
+SWIFT_CLASS("_TtC12KakaoMapsSDK12KakaoMapsSDK")
+@interface KakaoMapsSDK : NSObject
+/// 앱키를 지정하여 사용 인증할 준비를 한다.
+/// <ul>
+///   <li>
+///     parameters
+///     <ul>
+///       <li>
+///         appKey : 앱키
+///       </li>
+///     </ul>
+///   </li>
+/// </ul>
++ (void)InitSDKWithAppKey:(NSString * _Nonnull)appKey;
++ (NSString * _Nonnull)GetAppKey SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 /// Label protocol
 SWIFT_PROTOCOL("_TtP12KakaoMapsSDK5Label_")
@@ -5011,9 +5032,17 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK13WaveTextStyle")
 /// 건물 일부 층이 서로 연결된 경우와 같이 다른 Zone 이지만 Zone의 일부가 서로 연결되어 있는 경우 연결 정보가 전달된다.
 SWIFT_CLASS("_TtC12KakaoMapsSDK12ZoneLinkInfo")
 @interface ZoneLinkInfo : NSObject
+/// Default initializer
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// Initializer
+/// \param zoneId 연결된 zone ID
+///
+/// \param detailId 연결된 zone의 detail ID
+///
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId detailId:(NSString * _Nonnull)detailId;
+/// 연결된 zone의 ID
 @property (nonatomic, copy) NSString * _Nonnull zoneId;
+/// 연결된 zone의 detail ID
 @property (nonatomic, copy) NSString * _Nonnull detailId;
 @end
 
@@ -6719,6 +6748,27 @@ SWIFT_PROTOCOL("_TtP12KakaoMapsSDK21KakaoMapEventDelegate_")
 @end
 
 
+/// KakaoMapsSDK
+/// SDK 사용을 위한 초기화 클래스
+SWIFT_CLASS("_TtC12KakaoMapsSDK12KakaoMapsSDK")
+@interface KakaoMapsSDK : NSObject
+/// 앱키를 지정하여 사용 인증할 준비를 한다.
+/// <ul>
+///   <li>
+///     parameters
+///     <ul>
+///       <li>
+///         appKey : 앱키
+///       </li>
+///     </ul>
+///   </li>
+/// </ul>
++ (void)InitSDKWithAppKey:(NSString * _Nonnull)appKey;
++ (NSString * _Nonnull)GetAppKey SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 /// Label protocol
 SWIFT_PROTOCOL("_TtP12KakaoMapsSDK5Label_")
@@ -10089,9 +10139,17 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK13WaveTextStyle")
 /// 건물 일부 층이 서로 연결된 경우와 같이 다른 Zone 이지만 Zone의 일부가 서로 연결되어 있는 경우 연결 정보가 전달된다.
 SWIFT_CLASS("_TtC12KakaoMapsSDK12ZoneLinkInfo")
 @interface ZoneLinkInfo : NSObject
+/// Default initializer
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// Initializer
+/// \param zoneId 연결된 zone ID
+///
+/// \param detailId 연결된 zone의 detail ID
+///
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId detailId:(NSString * _Nonnull)detailId;
+/// 연결된 zone의 ID
 @property (nonatomic, copy) NSString * _Nonnull zoneId;
+/// 연결된 zone의 detail ID
 @property (nonatomic, copy) NSString * _Nonnull detailId;
 @end
 

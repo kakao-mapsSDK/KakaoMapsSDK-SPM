@@ -20,16 +20,6 @@
 @class ViewBase;
 @class ViewInfo;
 
-/// View생성 시 결과에 대한 enummeration
-typedef NS_ENUM(NSInteger, Result) {
-    /// 똑같은 이름의 View가 존재
-    ResultAlreadyExist = 0,
-    /// View 생성 실패
-    ResultFailed,
-    /// View 생성 성공
-    ResultOK
-};
-
 /// KMController 이벤트 delegate
 @protocol MapControllerDelegate <NSObject>
 @required
@@ -39,6 +29,8 @@ typedef NS_ENUM(NSInteger, Result) {
 - (void)addViews;
 
 @optional
+- (void)addViewSucceeded:(NSString * _Nonnull)viewName viewInfoName:(NSString * _Nonnull)viewInfoName;
+
 /// addView 실패시 호출.
 - (void)addViewFailed:(NSString * _Nonnull)viewName viewInfoName:(NSString * _Nonnull)viewInfoName;
 
@@ -104,27 +96,27 @@ typedef NS_ENUM(NSInteger, Result) {
 
 /// SubView(ViewBase)를 추가한다.
 /// - parameter config: 추가할 subView에 대한 config
-- (Result)addView:(ViewInfo * _Nonnull)viewInfo;
+- (void)addView:(ViewInfo * _Nonnull)viewInfo;
 
 /// SubView(ViewBase)를 추가한다.
 /// - parameter config: 추가할 subView에 대한 config
 /// - parameter timeoutInMillis: 네트웍을 통한 viewInfo 수신 타임아웃 시간. 단위 millisecond. 기본값 5000.
-- (Result)addView:(ViewInfo * _Nonnull)viewInfo
-          timeout:(NSUInteger)timeoutInMillis;
+- (void)addView:(ViewInfo * _Nonnull)viewInfo
+        timeout:(NSUInteger)timeoutInMillis;
 
 /// SubView(ViewBase)를 추가한다.
 /// - parameter config : 추가할 subView에 대한 config
 /// - parameter viewSize : 추가할 subView에 대한 size
 /// - parameter timeoutInMillis: 네트웍을 통한 viewInfo 수신 타임아웃 시간. 단위 millisecond. 기본값 5000.
-- (Result)addView:(ViewInfo * _Nonnull)viewInfo
-         viewSize:(CGSize)viewSize
-          timeout:(NSUInteger)timeoutInMillis;
+- (void)addView:(ViewInfo * _Nonnull)viewInfo
+       viewSize:(CGSize)viewSize
+        timeout:(NSUInteger)timeoutInMillis;
 
 /// SubView(ViewBase)를 특정 사이즈로 추가한다.
 /// - parameter config :  추가할 subView에 대한 config
 /// - parameter viewSize : 추가할 subView에 대한 size
-- (Result)addView:(ViewInfo * _Nonnull)viewInfo
-         viewSize:(CGSize)viewSize;
+- (void)addView:(ViewInfo * _Nonnull)viewInfo
+       viewSize:(CGSize)viewSize;
 
 /// SubView를 제거한다.
 /// - paramter: 삭제할 subView의 이름
