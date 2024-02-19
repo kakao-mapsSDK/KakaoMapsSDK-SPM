@@ -1641,27 +1641,6 @@ SWIFT_PROTOCOL("_TtP12KakaoMapsSDK21KakaoMapEventDelegate_")
 @end
 
 
-/// KakaoMapsSDK
-/// SDK 사용을 위한 초기화 클래스
-SWIFT_CLASS("_TtC12KakaoMapsSDK12KakaoMapsSDK")
-@interface KakaoMapsSDK : NSObject
-/// 앱키를 지정하여 사용 인증할 준비를 한다.
-/// <ul>
-///   <li>
-///     parameters
-///     <ul>
-///       <li>
-///         appKey : 앱키
-///       </li>
-///     </ul>
-///   </li>
-/// </ul>
-+ (void)InitSDKWithAppKey:(NSString * _Nonnull)appKey;
-+ (NSString * _Nonnull)GetAppKey SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 /// Label protocol
 SWIFT_PROTOCOL("_TtP12KakaoMapsSDK5Label_")
@@ -4165,6 +4144,27 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK13RouteStyleSet")
 @property (nonatomic, readonly, copy) NSArray<RoutePattern *> * _Nonnull patterns;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// KakaoMapsSDK
+/// SDK 사용을 위한 초기화 클래스
+SWIFT_CLASS("_TtC12KakaoMapsSDK14SDKInitializer")
+@interface SDKInitializer : NSObject
+/// 앱키를 지정하여 사용 인증할 준비를 한다.
+/// <ul>
+///   <li>
+///     parameters
+///     <ul>
+///       <li>
+///         appKey : 앱키
+///       </li>
+///     </ul>
+///   </li>
+/// </ul>
++ (void)InitSDKWithAppKey:(NSString * _Nonnull)appKey;
++ (NSString * _Nonnull)GetAppKey SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class ScaleAlphaAnimationKeyFrame;

@@ -43834,8 +43834,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KakaoMapsSDK",
-        "printedName": "KakaoMapsSDK",
+        "name": "SDKInitializer",
+        "printedName": "SDKInitializer",
         "children": [
           {
             "kind": "Function",
@@ -43855,8 +43855,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK(cm)InitSDKWithAppKey:",
-            "mangledName": "$s12KakaoMapsSDKAAC04InitC06appKeyySS_tFZ",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer(cm)InitSDKWithAppKey:",
+            "mangledName": "$s12KakaoMapsSDK14SDKInitializerC04InitC06appKeyySS_tFZ",
             "moduleName": "KakaoMapsSDK",
             "static": true,
             "objc_name": "InitSDKWithAppKey:",
@@ -43881,8 +43881,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK(cm)GetAppKey",
-            "mangledName": "$s12KakaoMapsSDKAAC9GetAppKeySSyFZ",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer(cm)GetAppKey",
+            "mangledName": "$s12KakaoMapsSDK14SDKInitializerC9GetAppKeySSyFZ",
             "moduleName": "KakaoMapsSDK",
             "static": true,
             "declAttributes": [
@@ -43899,14 +43899,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "KakaoMapsSDK",
-                "printedName": "KakaoMapsSDK.KakaoMapsSDK",
-                "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK"
+                "name": "SDKInitializer",
+                "printedName": "KakaoMapsSDK.SDKInitializer",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK(im)init",
-            "mangledName": "$s12KakaoMapsSDKAACABycfc",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer(im)init",
+            "mangledName": "$s12KakaoMapsSDK14SDKInitializerCACycfc",
             "moduleName": "KakaoMapsSDK",
             "overriding": true,
             "implicit": true,
@@ -43920,8 +43920,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMapsSDK",
-        "mangledName": "$s12KakaoMapsSDKAAC",
+        "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer",
+        "mangledName": "$s12KakaoMapsSDK14SDKInitializerC",
         "moduleName": "KakaoMapsSDK",
         "declAttributes": [
           "AccessControl",
@@ -58547,9 +58547,9 @@
       "value": "\"KakaoMapsSDK.ShapeAnimator\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/KakaoMapsSDK.swift",
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/SDKInitializer.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1037,
       "length": 2,
       "value": "\"\""
     },

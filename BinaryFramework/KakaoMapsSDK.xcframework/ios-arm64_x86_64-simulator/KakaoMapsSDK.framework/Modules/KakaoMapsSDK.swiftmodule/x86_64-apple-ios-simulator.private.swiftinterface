@@ -1582,7 +1582,7 @@ public protocol DisposableEventHandler {
   }
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class KakaoMapsSDK : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class SDKInitializer : ObjectiveC.NSObject {
   @objc public static func InitSDK(appKey: Swift.String)
   @objc public static func GetAppKey() -> Swift.String
   @objc override dynamic public init()
