@@ -4163,6 +4163,10 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK14SDKInitializer")
 ///   </li>
 /// </ul>
 + (void)InitSDKWithAppKey:(NSString * _Nonnull)appKey;
+/// AppKey
+///
+/// returns:
+/// appKey
 + (NSString * _Nonnull)GetAppKey SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -9270,6 +9274,10 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK14SDKInitializer")
 ///   </li>
 /// </ul>
 + (void)InitSDKWithAppKey:(NSString * _Nonnull)appKey;
+/// AppKey
+///
+/// returns:
+/// appKey
 + (NSString * _Nonnull)GetAppKey SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

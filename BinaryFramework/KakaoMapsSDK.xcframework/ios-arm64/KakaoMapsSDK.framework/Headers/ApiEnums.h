@@ -10,12 +10,15 @@
 
 #import <Foundation/Foundation.h>
 
+/// Developers Phase
 typedef NS_ENUM(NSInteger, KAPhase) {
-    /// 지도
+    /// real
     KAPhaseReal = 0,
-    /// 로드뷰
+    /// alpha
     KAPhaseAlpha,
+    /// beta
     KAPhaseBeta,
+    /// sandbox
     KAPhaseSandBox
 };
 

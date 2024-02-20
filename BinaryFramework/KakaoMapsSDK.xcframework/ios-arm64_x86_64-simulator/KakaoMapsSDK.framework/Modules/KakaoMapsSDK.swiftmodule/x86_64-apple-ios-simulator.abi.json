@@ -43888,7 +43888,8 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -58549,7 +58550,7 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/SDKInitializer.swift",
       "kind": "StringLiteral",
-      "offset": 1037,
+      "offset": 1081,
       "length": 2,
       "value": "\"\""
     },
