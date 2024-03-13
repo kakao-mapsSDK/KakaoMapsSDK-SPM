@@ -1487,12 +1487,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((KakaoMapsSDK.Animator?) -> ())?",
+                "printedName": "(((any KakaoMapsSDK.Animator)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(KakaoMapsSDK.Animator?) -> ()",
+                    "printedName": "((any KakaoMapsSDK.Animator)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1502,12 +1502,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "KakaoMapsSDK.Animator?",
+                        "printedName": "(any KakaoMapsSDK.Animator)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Animator",
-                            "printedName": "KakaoMapsSDK.Animator",
+                            "printedName": "any KakaoMapsSDK.Animator",
                             "usr": "c:@M@KakaoMapsSDK@objc(pl)Animator"
                           }
                         ],
@@ -5870,7 +5870,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -5930,7 +5930,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -5990,7 +5990,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -6097,12 +6097,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KakaoMapsSDK.GuiEventDelegate?",
+                "printedName": "(any KakaoMapsSDK.GuiEventDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "GuiEventDelegate",
-                    "printedName": "KakaoMapsSDK.GuiEventDelegate",
+                    "printedName": "any KakaoMapsSDK.GuiEventDelegate",
                     "usr": "c:@M@KakaoMapsSDK@objc(pl)GuiEventDelegate"
                   }
                 ],
@@ -6128,12 +6128,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KakaoMapsSDK.GuiEventDelegate?",
+                    "printedName": "(any KakaoMapsSDK.GuiEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "GuiEventDelegate",
-                        "printedName": "KakaoMapsSDK.GuiEventDelegate",
+                        "printedName": "any KakaoMapsSDK.GuiEventDelegate",
                         "usr": "c:@M@KakaoMapsSDK@objc(pl)GuiEventDelegate"
                       }
                     ],
@@ -6163,12 +6163,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KakaoMapsSDK.GuiEventDelegate?",
+                    "printedName": "(any KakaoMapsSDK.GuiEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "GuiEventDelegate",
-                        "printedName": "KakaoMapsSDK.GuiEventDelegate",
+                        "printedName": "any KakaoMapsSDK.GuiEventDelegate",
                         "usr": "c:@M@KakaoMapsSDK@objc(pl)GuiEventDelegate"
                       }
                     ],
@@ -20250,7 +20250,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -22738,7 +22738,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ShapeAnimationEffect",
-                "printedName": "KakaoMapsSDK.ShapeAnimationEffect",
+                "printedName": "any KakaoMapsSDK.ShapeAnimationEffect",
                 "usr": "c:@M@KakaoMapsSDK@objc(pl)ShapeAnimationEffect"
               }
             ],
@@ -25159,7 +25159,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "PoiAnimationEffect",
-                "printedName": "KakaoMapsSDK.PoiAnimationEffect",
+                "printedName": "any KakaoMapsSDK.PoiAnimationEffect",
                 "usr": "c:@M@KakaoMapsSDK@objc(pl)PoiAnimationEffect"
               }
             ],
@@ -27905,7 +27905,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ShapeAnimationEffect",
-                "printedName": "KakaoMapsSDK.ShapeAnimationEffect",
+                "printedName": "any KakaoMapsSDK.ShapeAnimationEffect",
                 "usr": "c:@M@KakaoMapsSDK@objc(pl)ShapeAnimationEffect"
               }
             ],
@@ -36020,7 +36020,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Label",
-                "printedName": "KakaoMapsSDK.Label",
+                "printedName": "any KakaoMapsSDK.Label",
                 "usr": "c:@M@KakaoMapsSDK@objc(pl)Label"
               }
             ],
@@ -36044,7 +36044,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Label",
-                    "printedName": "KakaoMapsSDK.Label",
+                    "printedName": "any KakaoMapsSDK.Label",
                     "usr": "c:@M@KakaoMapsSDK@objc(pl)Label"
                   }
                 ],
@@ -37457,7 +37457,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InfoWindowAnimationEffect",
-                "printedName": "KakaoMapsSDK.InfoWindowAnimationEffect",
+                "printedName": "any KakaoMapsSDK.InfoWindowAnimationEffect",
                 "usr": "c:@M@KakaoMapsSDK@objc(pl)InfoWindowAnimationEffect"
               }
             ],
@@ -41532,12 +41532,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KakaoMapsSDK.KakaoMapEventDelegate?",
+                "printedName": "(any KakaoMapsSDK.KakaoMapEventDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "KakaoMapEventDelegate",
-                    "printedName": "KakaoMapsSDK.KakaoMapEventDelegate",
+                    "printedName": "any KakaoMapsSDK.KakaoMapEventDelegate",
                     "usr": "c:@M@KakaoMapsSDK@objc(pl)KakaoMapEventDelegate"
                   }
                 ],
@@ -41563,12 +41563,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KakaoMapsSDK.KakaoMapEventDelegate?",
+                    "printedName": "(any KakaoMapsSDK.KakaoMapEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "KakaoMapEventDelegate",
-                        "printedName": "KakaoMapsSDK.KakaoMapEventDelegate",
+                        "printedName": "any KakaoMapsSDK.KakaoMapEventDelegate",
                         "usr": "c:@M@KakaoMapsSDK@objc(pl)KakaoMapEventDelegate"
                       }
                     ],
@@ -41598,12 +41598,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KakaoMapsSDK.KakaoMapEventDelegate?",
+                    "printedName": "(any KakaoMapsSDK.KakaoMapEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "KakaoMapEventDelegate",
-                        "printedName": "KakaoMapsSDK.KakaoMapEventDelegate",
+                        "printedName": "any KakaoMapsSDK.KakaoMapEventDelegate",
                         "usr": "c:@M@KakaoMapsSDK@objc(pl)KakaoMapEventDelegate"
                       }
                     ],
@@ -41742,7 +41742,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -41802,7 +41802,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -41862,7 +41862,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -41922,7 +41922,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -41982,7 +41982,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -42042,7 +42042,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -42102,7 +42102,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -42162,7 +42162,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -42222,7 +42222,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -42282,7 +42282,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -42342,7 +42342,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -42402,7 +42402,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -43217,12 +43217,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((KakaoMapsSDK.Animator?) -> ())?",
+                "printedName": "(((any KakaoMapsSDK.Animator)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(KakaoMapsSDK.Animator?) -> ()",
+                    "printedName": "((any KakaoMapsSDK.Animator)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -43232,12 +43232,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "KakaoMapsSDK.Animator?",
+                        "printedName": "(any KakaoMapsSDK.Animator)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Animator",
-                            "printedName": "KakaoMapsSDK.Animator",
+                            "printedName": "any KakaoMapsSDK.Animator",
                             "usr": "c:@M@KakaoMapsSDK@objc(pl)Animator"
                           }
                         ],
@@ -44621,12 +44621,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((KakaoMapsSDK.Animator?) -> ())?",
+                "printedName": "(((any KakaoMapsSDK.Animator)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(KakaoMapsSDK.Animator?) -> ()",
+                    "printedName": "((any KakaoMapsSDK.Animator)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -44636,12 +44636,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "KakaoMapsSDK.Animator?",
+                        "printedName": "(any KakaoMapsSDK.Animator)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Animator",
-                            "printedName": "KakaoMapsSDK.Animator",
+                            "printedName": "any KakaoMapsSDK.Animator",
                             "usr": "c:@M@KakaoMapsSDK@objc(pl)Animator"
                           }
                         ],
@@ -45897,12 +45897,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KakaoMapsSDK.RoadviewEventDelegate?",
+                "printedName": "(any KakaoMapsSDK.RoadviewEventDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "RoadviewEventDelegate",
-                    "printedName": "KakaoMapsSDK.RoadviewEventDelegate",
+                    "printedName": "any KakaoMapsSDK.RoadviewEventDelegate",
                     "usr": "c:@M@KakaoMapsSDK@objc(pl)RoadviewEventDelegate"
                   }
                 ],
@@ -45928,12 +45928,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KakaoMapsSDK.RoadviewEventDelegate?",
+                    "printedName": "(any KakaoMapsSDK.RoadviewEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "RoadviewEventDelegate",
-                        "printedName": "KakaoMapsSDK.RoadviewEventDelegate",
+                        "printedName": "any KakaoMapsSDK.RoadviewEventDelegate",
                         "usr": "c:@M@KakaoMapsSDK@objc(pl)RoadviewEventDelegate"
                       }
                     ],
@@ -45963,12 +45963,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KakaoMapsSDK.RoadviewEventDelegate?",
+                    "printedName": "(any KakaoMapsSDK.RoadviewEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "RoadviewEventDelegate",
-                        "printedName": "KakaoMapsSDK.RoadviewEventDelegate",
+                        "printedName": "any KakaoMapsSDK.RoadviewEventDelegate",
                         "usr": "c:@M@KakaoMapsSDK@objc(pl)RoadviewEventDelegate"
                       }
                     ],
@@ -46014,7 +46014,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -46074,7 +46074,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -46134,7 +46134,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -46339,12 +46339,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((KakaoMapsSDK.Animator?) -> ())?",
+                "printedName": "(((any KakaoMapsSDK.Animator)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(KakaoMapsSDK.Animator?) -> ()",
+                    "printedName": "((any KakaoMapsSDK.Animator)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -46354,12 +46354,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "KakaoMapsSDK.Animator?",
+                        "printedName": "(any KakaoMapsSDK.Animator)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Animator",
-                            "printedName": "KakaoMapsSDK.Animator",
+                            "printedName": "any KakaoMapsSDK.Animator",
                             "usr": "c:@M@KakaoMapsSDK@objc(pl)Animator"
                           }
                         ],
@@ -50242,7 +50242,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Shape",
-                "printedName": "KakaoMapsSDK.Shape",
+                "printedName": "any KakaoMapsSDK.Shape",
                 "usr": "c:@M@KakaoMapsSDK@objc(pl)Shape"
               }
             ],
@@ -50270,7 +50270,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Shape",
-                "printedName": "KakaoMapsSDK.Shape",
+                "printedName": "any KakaoMapsSDK.Shape",
                 "usr": "c:@M@KakaoMapsSDK@objc(pl)Shape"
               }
             ],
@@ -50293,7 +50293,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DisposableEventHandler",
-                "printedName": "KakaoMapsSDK.DisposableEventHandler",
+                "printedName": "any KakaoMapsSDK.DisposableEventHandler",
                 "usr": "s:12KakaoMapsSDK22DisposableEventHandlerP"
               },
               {
@@ -55805,31 +55805,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/TextStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1681,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/TextStyle.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 9,
       "value": "\"KakaoMapsSDK.TextStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGuiLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3827,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGuiLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3866,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGuiLayer.swift",
@@ -55874,20 +55853,6 @@
       "value": "\"KakaoMapsSDK.PoiStyle\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneLinkInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 499,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneLinkInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 522,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/viewInfo\/MapviewInfo+OpenAPI.swift",
       "kind": "StringLiteral",
       "offset": 816,
@@ -55914,20 +55879,6 @@
       "offset": 1065,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/viewInfo\/MapviewInfo+OpenAPI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1359,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/viewInfo\/MapviewInfo+OpenAPI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1391,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextStyle.swift",
@@ -55966,34 +55917,6 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2983,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShapeOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3097,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3128,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3197,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShapeOptions.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 20,
@@ -56007,74 +55930,11 @@
       "value": "\"KakaoMapsSDK.Polyline\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/Roadview+OpenAPI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2451,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiBase.swift",
-      "kind": "StringLiteral",
-      "offset": 1348,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1370,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiBase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5505,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiBase.swift",
-      "kind": "StringLiteral",
-      "offset": 5908,
-      "length": 31,
-      "value": "\"This method must be overriden\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiBase.swift",
-      "kind": "StringLiteral",
-      "offset": 6006,
-      "length": 31,
-      "value": "\"This method must be overriden\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiBase.swift",
-      "kind": "StringLiteral",
-      "offset": 6100,
-      "length": 31,
-      "value": "\"This method must be overriden\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShape.swift",
       "kind": "StringLiteral",
       "offset": 708,
       "length": 13,
       "value": "\"KakaoMapsSDK.PolylineShape\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/RoadviewLookAt.swift",
-      "kind": "FloatLiteral",
-      "offset": 901,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/RoadviewLookAt.swift",
-      "kind": "FloatLiteral",
-      "offset": 921,
-      "length": 3,
-      "value": "0.0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/RoadviewLookAt.swift",
@@ -56091,270 +55951,11 @@
       "value": "\"KakaoMapsSDK.PolygonShape\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentBase.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 354,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 364,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 372,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentBase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 383,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 560,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3654,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 3689,
-      "length": 33,
-      "value": "\"Invalid MapPolygonShapeOptions.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 3905,
-      "length": 36,
-      "value": "\"MapPolygonShape ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5746,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11918,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 11953,
-      "length": 30,
-      "value": "\"Invalid PolygonShapeOptions.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 12193,
-      "length": 33,
-      "value": "\"PolygonShape ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13986,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20089,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 20124,
-      "length": 34,
-      "value": "\"Invalid MapPolylineShapeOptions.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 20368,
-      "length": 37,
-      "value": "\"MapPolylineShape ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22190,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28405,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 28440,
-      "length": 31,
-      "value": "\"Invalid PolylineShapeOptions.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 28681,
-      "length": 34,
-      "value": "\"PolylineShape ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 30492,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 35986,
-      "length": 25,
-      "value": "\"ags\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 36001,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 36010,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 36035,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 10,
       "value": "\"KakaoMapsSDK.ShapeLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 593,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 3439,
-      "length": 24,
-      "value": "\"Poi ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9291,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11487,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11504,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12734,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 13907,
-      "length": 29,
-      "value": "\"WaveText ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18174,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 20435,
-      "length": 18,
-      "value": "\"agp\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 20450,
-      "length": 1,
-      "value": "\"%d\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20485,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
@@ -56373,58 +55974,9 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGui.swift",
       "kind": "StringLiteral",
-      "offset": 563,
-      "length": 6,
-      "value": "\"main\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGui.swift",
-      "kind": "FloatLiteral",
-      "offset": 736,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGui.swift",
-      "kind": "FloatLiteral",
-      "offset": 744,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGui.swift",
-      "kind": "FloatLiteral",
-      "offset": 772,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGui.swift",
-      "kind": "StringLiteral",
       "offset": 283,
       "length": 9,
       "value": "\"KakaoMapsSDK.SpriteGui\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/DropAnimationEffect.swift",
-      "kind": "IntegerLiteral",
-      "offset": 687,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/DropAnimationEffect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 761,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/DropAnimationEffect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 791,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/DropAnimationEffect.swift",
@@ -56476,62 +56028,6 @@
       "value": "\"KakaoMapsSDK.TransformAnimationKeyFrame\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5621,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5658,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5688,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap+event.swift",
-      "kind": "StringLiteral",
-      "offset": 6056,
-      "length": 16,
-      "value": "\"system_compass\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap+event.swift",
-      "kind": "StringLiteral",
-      "offset": 8187,
-      "length": 6,
-      "value": "\"api_\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap+event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8250,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap+event.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9982,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1134,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonStyle.swift",
       "kind": "StringLiteral",
       "offset": 258,
@@ -56547,80 +56043,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "FloatLiteral",
-      "offset": 542,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "FloatLiteral",
-      "offset": 550,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "FloatLiteral",
-      "offset": 592,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "FloatLiteral",
-      "offset": 600,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3763,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3797,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3805,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4787,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4804,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 10,
       "value": "\"KakaoMapsSDK.InfoWindow\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap+OpenAPI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 782,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveText.swift",
@@ -56658,55 +56084,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo+OpenSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 912,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo+OpenSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 926,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1547,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1564,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2201,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2235,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2243,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
       "kind": "BooleanLiteral",
       "offset": 2974,
@@ -56717,76 +56094,6 @@
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
       "kind": "BooleanLiteral",
       "offset": 3723,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5209,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5314,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6100,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7311,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8033,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8567,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9291,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15147,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15218,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15267,
       "length": 5,
       "value": "false"
     },
@@ -56841,171 +56148,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 612,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 624,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 635,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 647,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 686,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 698,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 707,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 719,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 745,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "BooleanLiteral",
-      "offset": 772,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 1143,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 1155,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 1166,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 1178,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 1217,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1229,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 1238,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 1250,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1276,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1303,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
       "kind": "StringLiteral",
       "offset": 423,
       "length": 9,
       "value": "\"KakaoMapsSDK.GuiLayout\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2875,
-      "length": 39,
-      "value": "\"ShapeLayer \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2897,
-      "length": 7,
-      "value": "\" already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5094,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeManager.swift",
@@ -57016,80 +56162,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 795,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 3429,
-      "length": 27,
-      "value": "\"LodPoi ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9318,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11573,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11590,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 15124,
-      "length": 19,
-      "value": "\"aglp\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 15140,
-      "length": 1,
-      "value": "\"%d\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15175,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
       "kind": "StringLiteral",
       "offset": 683,
       "length": 13,
       "value": "\"KakaoMapsSDK.LodLabelLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/PanoramaMarker.swift",
-      "kind": "FloatLiteral",
-      "offset": 539,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/PanoramaMarker.swift",
-      "kind": "FloatLiteral",
-      "offset": 559,
-      "length": 3,
-      "value": "0.0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/PanoramaMarker.swift",
@@ -57107,73 +56183,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/MapviewInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 658,
-      "length": 6,
-      "value": "198084"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/MapviewInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 669,
-      "length": 6,
-      "value": "451902"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/MapviewInfo.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 11,
       "value": "\"KakaoMapsSDK.MapviewInfo\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3232,
-      "length": 34,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3249,
-      "length": 7,
-      "value": "\" already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5992,
-      "length": 34,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6009,
-      "length": 7,
-      "value": "\" already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8448,
-      "length": 43,
-      "value": "\"PoiAnimator \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8474,
-      "length": 7,
-      "value": "\" already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9442,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
@@ -57184,66 +56197,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 444,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 462,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 807,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 825,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextOptions.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 15,
       "value": "\"KakaoMapsSDK.WaveTextOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2928,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonShapeOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3047,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3078,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3134,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonShapeOptions.swift",
@@ -57254,192 +56211,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 577,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 609,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 619,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 628,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "FloatLiteral",
-      "offset": 638,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 860,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2221,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 2256,
-      "length": 33,
-      "value": "\"Invalid MapPolygonShapeOptions.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 2507,
-      "length": 36,
-      "value": "\"MapPolygonShape ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4335,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6901,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10531,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 10566,
-      "length": 30,
-      "value": "\"Invalid PolygonShapeOptions.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 10805,
-      "length": 33,
-      "value": "\"PolygonShape ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12621,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13767,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15105,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20390,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 22409,
-      "length": 24,
-      "value": "\"agsdim_screen\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 22432,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22457,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 9,
       "value": "\"KakaoMapsSDK.DimScreen\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/common\/ViewBase.swift",
-      "kind": "FloatLiteral",
-      "offset": 1241,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/common\/ViewBase.swift",
-      "kind": "FloatLiteral",
-      "offset": 1290,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/common\/ViewBase.swift",
-      "kind": "FloatLiteral",
-      "offset": 1372,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/common\/ViewBase.swift",
-      "kind": "FloatLiteral",
-      "offset": 1422,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/common\/ViewBase.swift",
-      "kind": "StringLiteral",
-      "offset": 2665,
-      "length": 31,
-      "value": "\"This method must be overriden\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/common\/ViewBase.swift",
@@ -57450,41 +56225,6 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 1188,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 1197,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1222,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 1229,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneManager.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 11,
@@ -57492,24 +56232,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiText.swift",
-      "kind": "IntegerLiteral",
-      "offset": 981,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiText.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 7,
       "value": "\"KakaoMapsSDK.GuiText\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1376,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineStyle.swift",
@@ -57576,48 +56302,6 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 833,
-      "length": 9,
-      "value": "-99999999"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 870,
-      "length": 9,
-      "value": "-99999999"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 907,
-      "length": 8,
-      "value": "99999999"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 944,
-      "length": 8,
-      "value": "99999999"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "FloatLiteral",
-      "offset": 3143,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "FloatLiteral",
-      "offset": 3286,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 8,
@@ -57632,27 +56316,6 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "FloatLiteral",
-      "offset": 5804,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "FloatLiteral",
-      "offset": 5833,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "FloatLiteral",
-      "offset": 5858,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
       "kind": "BooleanLiteral",
       "offset": 8121,
       "length": 5,
@@ -57661,30 +56324,9 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
       "kind": "IntegerLiteral",
-      "offset": 8350,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8531,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "IntegerLiteral",
       "offset": 10954,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13414,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
@@ -57723,52 +56365,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2439,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2552,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2582,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2638,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteOptions.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 12,
       "value": "\"KakaoMapsSDK.RouteOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindowLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3839,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindowLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3878,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindowLayer.swift",
@@ -57794,34 +56394,6 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiManager.swift",
       "kind": "StringLiteral",
-      "offset": 5460,
-      "length": 5,
-      "value": "\"sg_\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5552,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5601,
-      "length": 5,
-      "value": "\"iw_\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5695,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiManager.swift",
-      "kind": "StringLiteral",
       "offset": 505,
       "length": 10,
       "value": "\"KakaoMapsSDK.GuiManager\""
@@ -57832,27 +56404,6 @@
       "offset": 596,
       "length": 13,
       "value": "\"KakaoMapsSDK.RouteStyleSet\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentGroup.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2640,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentGroup.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2644,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentGroup.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2651,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
@@ -57883,454 +56434,6 @@
       "value": "6378137.0"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 889,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 903,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1011,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1025,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1044,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1068,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 1637,
-      "length": 5,
-      "value": "360.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 1704,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 1719,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1845,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 2069,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2297,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 2936,
-      "length": 5,
-      "value": "360.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3093,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 3326,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3562,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 4087,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 4125,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 4179,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 4194,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 4348,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 4594,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 4840,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 5086,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 5972,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 6010,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 6164,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 6427,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 6690,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 6953,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8094,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8122,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 8341,
-      "length": 6,
-      "value": "1200.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 8431,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 8731,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 8779,
-      "length": 4,
-      "value": "-0.5"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 8869,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 8985,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9060,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9082,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9153,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9164,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9186,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9196,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9256,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9267,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9289,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
-      "kind": "FloatLiteral",
-      "offset": 9299,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "FloatLiteral",
-      "offset": 4665,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4725,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4753,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4783,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4824,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4833,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4844,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4854,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8895,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8904,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8915,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8925,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12803,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12811,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13575,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13583,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "BooleanLiteral",
       "offset": 13964,
@@ -58354,41 +56457,6 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "FloatLiteral",
-      "offset": 14240,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "FloatLiteral",
-      "offset": 14251,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14403,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14411,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15160,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "FloatLiteral",
       "offset": 17080,
       "length": 3,
       "value": "0.0"
@@ -58402,136 +56470,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17173,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17196,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "FloatLiteral",
-      "offset": 20229,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "FloatLiteral",
-      "offset": 20259,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22620,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22655,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22815,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22849,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "StringLiteral",
       "offset": 4403,
       "length": 8,
       "value": "\"KakaoMapsSDK.KakaoMap\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 633,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 644,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 686,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 695,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 706,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 716,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2496,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2518,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2541,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2565,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
@@ -58555,20 +56497,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 572,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 583,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteSegment.swift",
       "kind": "StringLiteral",
       "offset": 512,
@@ -58581,181 +56509,6 @@
       "offset": 504,
       "length": 18,
       "value": "\"KakaoMapsSDK.InfoWindowAnimator\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 707,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 723,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 750,
-      "length": 27,
-      "value": "\"KakaoMapsSDKBundle.bundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 802,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 818,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 845,
-      "length": 42,
-      "value": "\"KakaoMapsSDK_SPM_KakaoMapsSDK-SPM.bundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 912,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 928,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 955,
-      "length": 42,
-      "value": "\"KakaoMapsSDK_SPM_KakaoMapsSDK-SPM.bundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1047,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1063,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 1090,
-      "length": 27,
-      "value": "\"KakaoMapsApiBundle.bundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1142,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1158,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 1185,
-      "length": 42,
-      "value": "\"KakaoMapsAPI_SPM_KakaoMapsAPI-SPM.bundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1252,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1268,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 1295,
-      "length": 42,
-      "value": "\"KakaoMapsAPI_SPM_KakaoMapsAPI-SPM.bundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 1731,
-      "length": 8,
-      "value": "\"bundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 1920,
-      "length": 27,
-      "value": "\"assets\/KakaoMapsSDKBundle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/view\/APIResources.swift",
-      "kind": "StringLiteral",
-      "offset": 1957,
-      "length": 7,
-      "value": "\"plist\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4336,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4361,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4634,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4659,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
@@ -58787,45 +56540,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1321,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2089,
-      "length": 45,
-      "value": "\"RouteLayer \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2117,
-      "length": 7,
-      "value": "\" already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteManager.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 12,
       "value": "\"KakaoMapsSDK.RouteManager\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/TrackingManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 784,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/TrackingManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 812,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/TrackingManager.swift",
@@ -58836,59 +56554,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 435,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 487,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiOptions.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 10,
       "value": "\"KakaoMapsSDK.PoiOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1552,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1569,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2203,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2237,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2245,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
@@ -58907,132 +56576,6 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
       "kind": "StringLiteral",
-      "offset": 4441,
-      "length": 40,
-      "value": "\"badge \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 4464,
-      "length": 7,
-      "value": "\" already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5270,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5375,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6160,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 6195,
-      "length": 44,
-      "value": "\"try to remove invalid badgeID \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 6236,
-      "length": 1,
-      "value": "\". \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7440,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 7475,
-      "length": 42,
-      "value": "\"try to show invalid badgeID \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 7514,
-      "length": 1,
-      "value": "\". \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8232,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8766,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 8801,
-      "length": 42,
-      "value": "\"try to hide invalid badgeID \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 8840,
-      "length": 1,
-      "value": "\". \""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9565,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25440,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25511,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25560,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
       "offset": 891,
       "length": 3,
       "value": "\"KakaoMapsSDK.Poi\""
@@ -59045,67 +56588,11 @@
       "value": "\"KakaoMapsSDK.WaveAnimationData\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/WaveAnimationEffect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2246,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/WaveAnimationEffect.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2273,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/WaveAnimationEffect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2526,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/WaveAnimationEffect.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2553,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiText.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 7,
       "value": "\"KakaoMapsSDK.PoiText\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolylineShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2818,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolylineShapeOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2932,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolylineShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2963,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolylineShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3032,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolylineShapeOptions.swift",
@@ -59116,34 +56603,6 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygonShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2595,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygonShapeOptions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2714,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygonShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2745,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygonShapeOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2801,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygonShapeOptions.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 22,
@@ -59151,101 +56610,10 @@
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 566,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1545,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1580,
-      "length": 23,
-      "value": "\"Invalid RouteSegment.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 1807,
-      "length": 26,
-      "value": "\"Route ID already exists.\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5718,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 6230,
-      "length": 25,
-      "value": "\"agr\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 6245,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 6254,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6279,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 10,
       "value": "\"KakaoMapsSDK.RouteLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiAnimatedImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiAnimatedImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 631,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiAnimatedImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 663,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiAnimatedImage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 686,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiAnimatedImage.swift",
@@ -59267,13 +56635,6 @@
       "offset": 1372,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/PerLevelRouteStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1437,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/PerLevelRouteStyle.swift",

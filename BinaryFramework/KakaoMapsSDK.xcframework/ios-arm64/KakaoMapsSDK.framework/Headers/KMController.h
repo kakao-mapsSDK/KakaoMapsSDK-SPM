@@ -47,6 +47,7 @@
 /// 인증 실패시 호출.
 - (void)authenticationFailed:(NSInteger)errorCode
                         desc:(NSString * _Nonnull)desc;
+
 @end
 
 /// KMController
@@ -138,6 +139,28 @@
 
 /// ViewInfo Cache를 모두 삭제한다.
 - (void)clearViewInfoCaches;
+
+#pragma mark - Fonts
+
+///// Label, GUI 등에 사용할 외부 폰트를 추가한다.
+/////
+///// - parameters
+/////       - font: 사용할 폰트
+/////       - fontName: 추가할 폰트 이름. 추가된 폰트를 사용할 때 지정하는 이름으로 사용된다.
+///// - returns: 폰트 추가 결과. 성공시 True.
+//- (BOOL)addFontWithFont:(UIFont * _Nonnull)font
+//             fontName:(NSString * _Nonnull)fontName;
+//
+///// Label, GUI 등에 사용할 외부 폰트를 추가한다.
+/////
+///// OTF, TTF 포맷을 지원한다.
+/////
+///// - parameters
+/////       - fontName: 추가할 폰트 이름. 추가된 폰트를 사용할 때 지정하는 이름으로 사용된다.
+/////       - fontData: 폰트 파일의 binary data.
+///// - returns: 폰트 추가 결과. 성공시 True.
+//- (BOOL)addFontWithName:(NSString * _Nonnull)fontName
+//               fontData:(NSData * _Nonnull)fontData;
 
 #pragma mark - Properties
 
