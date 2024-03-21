@@ -160,10 +160,10 @@ typedef NS_ENUM(NSInteger, PolylineCapType) {
 
 /// Poi의 transformType
 typedef NS_ENUM(NSInteger, PoiTransformType) {
-    /// 카메라의 roll값이 회전 방향에 적용되어 항상 정자세를 유지한다.
-    PoiTransformTypeDefault,
     /// 카메라의 roll값이 회전 방향에 적용되지 않아 특정 방향을 가리키고자 할 때 사용한다.
     PoiTransformTypeAbsoluteRotation,
+    /// 카메라의 roll값이 회전 방향에 적용되어 항상 정자세를 유지한다.
+    PoiTransformTypeDefault,
     /// AbsoulteRotation 속성을 가지면서 글자가 뒤집어지지 않게 한다.
     PoiTransformTypeKeepUpright,
     /// AbsoluteRotation 속성을 가지면서 바닥에 붙는 변환을 준다.

@@ -68,28 +68,24 @@
 
 #pragma mark - Engine Controls
 
-/// Engine을 생성하고 초기화 시킨다.
-- (void)initEngine;
-
-/// Engine을 시작시킨다.
+/// Engine 준비
 /// 엔진이 렌더링 준비를 마치는 경우, MapControllerDelegate의 addViews를 호출한다.
-- (BOOL)startEngine;
+- (BOOL)prepareEngine;
 
-/// Engine을 멈춘다.
+/// Engine 리셋
 /// 생성한 Resource는 모두 릴리즈되므로, stop이후 기존에 사용했던 모든 resource는 사용할 수 없다.
-- (void)stopEngine;
+- (void)resetEngine;
 
-/// 렌더링을 시작한다.
+/// 엔진 활성화
+///
+/// 엔진은 앱이 active 상태일 때에만 활성화 상태에 있어야 한다.
 /// 이 시점부터 뷰에 렌더링을 하기 시작한다.
-- (void)startRendering;
+- (void)activateEngine;
 
-/// 렌더링을 멈춘다.
+/// 엔진 일시정지
+///
 /// 이 시점부터는 뷰에 렌더링을 하지 않는다.
-- (void)stopRendering;
-
-/// API 인증을 시도한다.
-/// 결과에 따라 delegate 함수가 호출된다.
-- (void)authenticate;
+- (void)pauseEngine;
 
 /// 엔진 이슈 확인용 디버그 메세지.
 - (NSString * _Nonnull)getStateDescMessage;
@@ -168,11 +164,11 @@
 @property (nonatomic, weak, nullable) id<MapControllerDelegate> delegate;
 
 /// 엔진 활성화 여부
-@property (nonatomic, readonly, getter=engineStarted) BOOL engineStarted;
+@property (nonatomic, readonly, getter=isEnginePrepared) BOOL enginePrepared;
 /// ProMotion display support 활성화 여부
 @property (nonatomic, setter=enableProMotionSupport:) BOOL proMotionSupport;
 /// 렌더링 하고 있는지 여부
-@property (nonatomic, readonly, getter=rendering) BOOL rendering;
+@property (nonatomic, readonly, getter=isEngineActive) BOOL engineActive;
 
 @end
 

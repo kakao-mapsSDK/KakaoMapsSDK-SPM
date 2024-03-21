@@ -437,6 +437,16 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK14CameraPosition")
 /// \param tilt 카메라 기울임각 (radian, 수직방향 기준)
 ///
 - (nonnull instancetype)initWithTarget:(MapPoint * _Nonnull)target height:(double)height rotation:(double)rotation tilt:(double)tilt OBJC_DESIGNATED_INITIALIZER;
+/// Initializer
+/// \param target 카메라가 바라보는 지점의 MapPoint
+///
+/// \param zoomLevel 줌레벨
+///
+/// \param rotation 카메라 회전각 (radian, 정북기준 시계방향)
+///
+/// \param tilt 카메라 기울임각 (radian, 수직방향 기준)
+///
+- (nonnull instancetype)initWithTarget:(MapPoint * _Nonnull)target zoomLevel:(NSInteger)zoomLevel rotation:(double)rotation tilt:(double)tilt OBJC_DESIGNATED_INITIALIZER;
 /// 객체 복사를 위한 함수
 /// \param zone zone
 ///
@@ -445,13 +455,17 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK14CameraPosition")
 /// new copied object
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 /// 카메라가 바라보는 지점에 대한 MapPoint
-@property (nonatomic, readonly, strong) MapPoint * _Nonnull targetPoint;
+@property (nonatomic, strong) MapPoint * _Nonnull targetPoint;
 /// 카메라 높이(m)
-@property (nonatomic, readonly) double height;
+@property (nonatomic) double height;
 /// 카메라 회전각(radian, 정북기준 시계방향)
-@property (nonatomic, readonly) double rotation;
+@property (nonatomic) double rotation;
 /// 카메라 기울임각(radian, 수직방향 기준)
-@property (nonatomic, readonly) double tilt;
+@property (nonatomic) double tilt;
+/// 줌 레벨
+@property (nonatomic) NSInteger zoomLevel;
+/// 카메라 레벨 우선 지정. True일 경우 지정된 줌 레벨로 카메라 높이 결정. False일 경우 지정된 높이값으로 카메라 높이 결정. True/False에 따라 zoomLevel/height 값이 지정되어야 함.
+@property (nonatomic) BOOL byLevel;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1422,6 +1436,7 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8KakaoMap")
 /// 지도상의 poi size를 조절한다. icon 크기도 함께 변한다.
 /// default값은 Regular
 @property (nonatomic) PoiScaleType poiScale;
+@property (nonatomic) BOOL keepLevelOnResize;
 /// 지도 위에 overlay를 표시한다.
 /// \param overlay 지도위에 표시하고자 하는 overlay 이름
 ///
@@ -2679,6 +2694,22 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK16PerLevelPoiStyle")
 /// initializer
 /// \param iconStyle Poi의 IconStyle.
 ///
+/// \param padding padding
+///
+/// \param level 해당 Style이 표출되기 시작할 레벨. 특정 레벨에서 해당 표출 레벨의 iconStyle, 혹은 textStyle이 추가되지 않은 경우, Poi 심볼이나 텍스트가 표시되지 않는다.
+///
+- (nonnull instancetype)initWithIconStyle:(PoiIconStyle * _Nonnull)iconStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
+/// initializer
+/// \param textStyle Poi의 TextStyle
+///
+/// \param padding padding
+///
+/// \param level 해당 Style이 표출되기 시작할 레벨. 특정 레벨에서 해당 표출 레벨의 iconStyle, 혹은 textStyle이 추가되지 않은 경우, Poi 심볼이나 텍스트가 표시되지 않는다.
+///
+- (nonnull instancetype)initWithTextStyle:(PoiTextStyle * _Nonnull)textStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
+/// initializer
+/// \param iconStyle Poi의 IconStyle.
+///
 /// \param textStyle Poi의 TextStyle
 ///
 /// \param padding padding
@@ -2686,18 +2717,10 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK16PerLevelPoiStyle")
 /// \param level 해당 Style이 표출되기 시작할 레벨. 특정 레벨에서 해당 표출 레벨의 iconStyle, 혹은 textStyle이 추가되지 않은 경우, Poi 심볼이나 텍스트가 표시되지 않는다.
 ///
 - (nonnull instancetype)initWithIconStyle:(PoiIconStyle * _Nonnull)iconStyle textStyle:(PoiTextStyle * _Nonnull)textStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
-/// initializer
-/// \param iconStyle Poi의 IconStyle
-///
-/// \param padding padding
-///
-/// \param level 해당 Style이 표출되기 시작할 레벨
-///
-- (nonnull instancetype)initWithIconStyle:(PoiIconStyle * _Nonnull)iconStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
 /// Poi의 IconStyle
 /// seealso:
 /// PoiIconStyle
-@property (nonatomic, readonly, strong) PoiIconStyle * _Nonnull iconStyle;
+@property (nonatomic, readonly, strong) PoiIconStyle * _Nullable iconStyle;
 /// Poi의 TextStyle
 /// seealso:
 /// PoiTextStyle
@@ -5548,6 +5571,16 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK14CameraPosition")
 /// \param tilt 카메라 기울임각 (radian, 수직방향 기준)
 ///
 - (nonnull instancetype)initWithTarget:(MapPoint * _Nonnull)target height:(double)height rotation:(double)rotation tilt:(double)tilt OBJC_DESIGNATED_INITIALIZER;
+/// Initializer
+/// \param target 카메라가 바라보는 지점의 MapPoint
+///
+/// \param zoomLevel 줌레벨
+///
+/// \param rotation 카메라 회전각 (radian, 정북기준 시계방향)
+///
+/// \param tilt 카메라 기울임각 (radian, 수직방향 기준)
+///
+- (nonnull instancetype)initWithTarget:(MapPoint * _Nonnull)target zoomLevel:(NSInteger)zoomLevel rotation:(double)rotation tilt:(double)tilt OBJC_DESIGNATED_INITIALIZER;
 /// 객체 복사를 위한 함수
 /// \param zone zone
 ///
@@ -5556,13 +5589,17 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK14CameraPosition")
 /// new copied object
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 /// 카메라가 바라보는 지점에 대한 MapPoint
-@property (nonatomic, readonly, strong) MapPoint * _Nonnull targetPoint;
+@property (nonatomic, strong) MapPoint * _Nonnull targetPoint;
 /// 카메라 높이(m)
-@property (nonatomic, readonly) double height;
+@property (nonatomic) double height;
 /// 카메라 회전각(radian, 정북기준 시계방향)
-@property (nonatomic, readonly) double rotation;
+@property (nonatomic) double rotation;
 /// 카메라 기울임각(radian, 수직방향 기준)
-@property (nonatomic, readonly) double tilt;
+@property (nonatomic) double tilt;
+/// 줌 레벨
+@property (nonatomic) NSInteger zoomLevel;
+/// 카메라 레벨 우선 지정. True일 경우 지정된 줌 레벨로 카메라 높이 결정. False일 경우 지정된 높이값으로 카메라 높이 결정. True/False에 따라 zoomLevel/height 값이 지정되어야 함.
+@property (nonatomic) BOOL byLevel;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -6533,6 +6570,7 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8KakaoMap")
 /// 지도상의 poi size를 조절한다. icon 크기도 함께 변한다.
 /// default값은 Regular
 @property (nonatomic) PoiScaleType poiScale;
+@property (nonatomic) BOOL keepLevelOnResize;
 /// 지도 위에 overlay를 표시한다.
 /// \param overlay 지도위에 표시하고자 하는 overlay 이름
 ///
@@ -7790,6 +7828,22 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK16PerLevelPoiStyle")
 /// initializer
 /// \param iconStyle Poi의 IconStyle.
 ///
+/// \param padding padding
+///
+/// \param level 해당 Style이 표출되기 시작할 레벨. 특정 레벨에서 해당 표출 레벨의 iconStyle, 혹은 textStyle이 추가되지 않은 경우, Poi 심볼이나 텍스트가 표시되지 않는다.
+///
+- (nonnull instancetype)initWithIconStyle:(PoiIconStyle * _Nonnull)iconStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
+/// initializer
+/// \param textStyle Poi의 TextStyle
+///
+/// \param padding padding
+///
+/// \param level 해당 Style이 표출되기 시작할 레벨. 특정 레벨에서 해당 표출 레벨의 iconStyle, 혹은 textStyle이 추가되지 않은 경우, Poi 심볼이나 텍스트가 표시되지 않는다.
+///
+- (nonnull instancetype)initWithTextStyle:(PoiTextStyle * _Nonnull)textStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
+/// initializer
+/// \param iconStyle Poi의 IconStyle.
+///
 /// \param textStyle Poi의 TextStyle
 ///
 /// \param padding padding
@@ -7797,18 +7851,10 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK16PerLevelPoiStyle")
 /// \param level 해당 Style이 표출되기 시작할 레벨. 특정 레벨에서 해당 표출 레벨의 iconStyle, 혹은 textStyle이 추가되지 않은 경우, Poi 심볼이나 텍스트가 표시되지 않는다.
 ///
 - (nonnull instancetype)initWithIconStyle:(PoiIconStyle * _Nonnull)iconStyle textStyle:(PoiTextStyle * _Nonnull)textStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
-/// initializer
-/// \param iconStyle Poi의 IconStyle
-///
-/// \param padding padding
-///
-/// \param level 해당 Style이 표출되기 시작할 레벨
-///
-- (nonnull instancetype)initWithIconStyle:(PoiIconStyle * _Nonnull)iconStyle padding:(float)padding level:(NSInteger)level OBJC_DESIGNATED_INITIALIZER;
 /// Poi의 IconStyle
 /// seealso:
 /// PoiIconStyle
-@property (nonatomic, readonly, strong) PoiIconStyle * _Nonnull iconStyle;
+@property (nonatomic, readonly, strong) PoiIconStyle * _Nullable iconStyle;
 /// Poi의 TextStyle
 /// seealso:
 /// PoiTextStyle

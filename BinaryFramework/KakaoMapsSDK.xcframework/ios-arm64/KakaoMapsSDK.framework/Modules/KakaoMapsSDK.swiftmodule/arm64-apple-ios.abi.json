@@ -1662,6 +1662,94 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(iconStyle:padding:level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PerLevelPoiStyle",
+                "printedName": "KakaoMapsSDK.PerLevelPoiStyle",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PoiIconStyle",
+                "printedName": "KakaoMapsSDK.PoiIconStyle",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)PoiIconStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle(im)initWithIconStyle:padding:level:",
+            "mangledName": "$s12KakaoMapsSDK16PerLevelPoiStyleC04iconG07padding5levelAcA0f4IconG0C_SfSitcfc",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "initWithIconStyle:padding:level:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(textStyle:padding:level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PerLevelPoiStyle",
+                "printedName": "KakaoMapsSDK.PerLevelPoiStyle",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PoiTextStyle",
+                "printedName": "KakaoMapsSDK.PoiTextStyle",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)PoiTextStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle(im)initWithTextStyle:padding:level:",
+            "mangledName": "$s12KakaoMapsSDK16PerLevelPoiStyleC04textG07padding5levelAcA0f4TextG0C_SfSitcfc",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "initWithTextStyle:padding:level:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(iconStyle:textStyle:padding:level:)",
             "children": [
               {
@@ -1693,6 +1781,7 @@
                 "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
+                "hasDefaultArg": true,
                 "usr": "s:Si"
               }
             ],
@@ -1709,63 +1798,28 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(iconStyle:padding:level:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PerLevelPoiStyle",
-                "printedName": "KakaoMapsSDK.PerLevelPoiStyle",
-                "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PoiIconStyle",
-                "printedName": "KakaoMapsSDK.PoiIconStyle",
-                "usr": "c:@M@KakaoMapsSDK@objc(cs)PoiIconStyle"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "hasDefaultArg": true,
-                "usr": "s:Sf"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle(im)initWithIconStyle:padding:level:",
-            "mangledName": "$s12KakaoMapsSDK16PerLevelPoiStyleC04iconG07padding5levelAcA0f4IconG0C_SfSitcfc",
-            "moduleName": "KakaoMapsSDK",
-            "objc_name": "initWithIconStyle:padding:level:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "iconStyle",
             "printedName": "iconStyle",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PoiIconStyle",
-                "printedName": "KakaoMapsSDK.PoiIconStyle",
-                "usr": "c:@M@KakaoMapsSDK@objc(cs)PoiIconStyle"
+                "name": "Optional",
+                "printedName": "KakaoMapsSDK.PoiIconStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PoiIconStyle",
+                    "printedName": "KakaoMapsSDK.PoiIconStyle",
+                    "usr": "c:@M@KakaoMapsSDK@objc(cs)PoiIconStyle"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle(py)iconStyle",
-            "mangledName": "$s12KakaoMapsSDK16PerLevelPoiStyleC04iconG0AA0f4IconG0Cvp",
+            "mangledName": "$s12KakaoMapsSDK16PerLevelPoiStyleC04iconG0AA0f4IconG0CSgvp",
             "moduleName": "KakaoMapsSDK",
             "declAttributes": [
               "AccessControl",
@@ -1780,14 +1834,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PoiIconStyle",
-                    "printedName": "KakaoMapsSDK.PoiIconStyle",
-                    "usr": "c:@M@KakaoMapsSDK@objc(cs)PoiIconStyle"
+                    "name": "Optional",
+                    "printedName": "KakaoMapsSDK.PoiIconStyle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PoiIconStyle",
+                        "printedName": "KakaoMapsSDK.PoiIconStyle",
+                        "usr": "c:@M@KakaoMapsSDK@objc(cs)PoiIconStyle"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@KakaoMapsSDK@objc(cs)PerLevelPoiStyle(im)iconStyle",
-                "mangledName": "$s12KakaoMapsSDK16PerLevelPoiStyleC04iconG0AA0f4IconG0Cvg",
+                "mangledName": "$s12KakaoMapsSDK16PerLevelPoiStyleC04iconG0AA0f4IconG0CSgvg",
                 "moduleName": "KakaoMapsSDK",
                 "declAttributes": [
                   "ObjC"
@@ -31336,6 +31398,54 @@
             "moduleName": "KakaoMapsSDK",
             "objc_name": "initWithTarget:height:rotation:tilt:",
             "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(target:zoomLevel:rotation:tilt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraPosition",
+                "printedName": "KakaoMapsSDK.CameraPosition",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapPoint",
+                "printedName": "KakaoMapsSDK.MapPoint",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)MapPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)initWithTarget:zoomLevel:rotation:tilt:",
+            "mangledName": "$s12KakaoMapsSDK14CameraPositionC6target9zoomLevel8rotation4tiltAcA8MapPointC_SiS2dtcfc",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "initWithTarget:zoomLevel:rotation:tilt:",
+            "declAttributes": [
               "Required",
               "AccessControl",
               "ObjC",
@@ -31425,6 +31535,52 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MapPoint",
+                    "printedName": "KakaoMapsSDK.MapPoint",
+                    "usr": "c:@M@KakaoMapsSDK@objc(cs)MapPoint"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)setTargetPoint:",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC11targetPointAA03MapG0Cvs",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK14CameraPositionC11targetPointAA03MapG0CvM",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC11targetPointAA03MapG0CvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -31472,6 +31628,52 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)setHeight:",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC6heightSdvs",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK14CameraPositionC6heightSdvM",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC6heightSdvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -31519,6 +31721,52 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)setRotation:",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC8rotationSdvs",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK14CameraPositionC8rotationSdvM",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC8rotationSdvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -31566,6 +31814,230 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)setTilt:",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC4tiltSdvs",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK14CameraPositionC4tiltSdvM",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC4tiltSdvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoomLevel",
+            "printedName": "zoomLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(py)zoomLevel",
+            "mangledName": "$s12KakaoMapsSDK14CameraPositionC9zoomLevelSivp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)zoomLevel",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC9zoomLevelSivg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)setZoomLevel:",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC9zoomLevelSivs",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK14CameraPositionC9zoomLevelSivM",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC9zoomLevelSivM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "byLevel",
+            "printedName": "byLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(py)byLevel",
+            "mangledName": "$s12KakaoMapsSDK14CameraPositionC7byLevelSbvp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)byLevel",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC7byLevelSbvg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)CameraPosition(im)setByLevel:",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC7byLevelSbvs",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK14CameraPositionC7byLevelSbvM",
+                "mangledName": "$s12KakaoMapsSDK14CameraPositionC7byLevelSbvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -40934,6 +41406,98 @@
                 "declKind": "Accessor",
                 "usr": "s:12KakaoMapsSDK0A3MapC8poiScaleSo03PoiF4TypeVvM",
                 "mangledName": "$s12KakaoMapsSDK0A3MapC8poiScaleSo03PoiF4TypeVvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keepLevelOnResize",
+            "printedName": "keepLevelOnResize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(py)keepLevelOnResize",
+            "mangledName": "$s12KakaoMapsSDK0A3MapC17keepLevelOnResizeSbvp",
+            "moduleName": "KakaoMapsSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(im)keepLevelOnResize",
+                "mangledName": "$s12KakaoMapsSDK0A3MapC17keepLevelOnResizeSbvg",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(im)setKeepLevelOnResize:",
+                "mangledName": "$s12KakaoMapsSDK0A3MapC17keepLevelOnResizeSbvs",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK0A3MapC17keepLevelOnResizeSbvM",
+                "mangledName": "$s12KakaoMapsSDK0A3MapC17keepLevelOnResizeSbvM",
                 "moduleName": "KakaoMapsSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -55827,16 +56391,44 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 992,
+      "offset": 925,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 943,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1388,
+      "offset": 1507,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1525,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 2157,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2175,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
@@ -55848,7 +56440,7 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
       "kind": "StringLiteral",
-      "offset": 2497,
+      "offset": 3278,
       "length": 8,
       "value": "\"KakaoMapsSDK.PoiStyle\""
     },
@@ -56086,14 +56678,14 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2974,
+      "offset": 3031,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
       "kind": "BooleanLiteral",
-      "offset": 3723,
+      "offset": 3780,
       "length": 5,
       "value": "false"
     },
@@ -56317,21 +56909,21 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
       "kind": "BooleanLiteral",
-      "offset": 8121,
+      "offset": 9832,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
       "kind": "IntegerLiteral",
-      "offset": 10954,
+      "offset": 12665,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
       "kind": "StringLiteral",
-      "offset": 8026,
+      "offset": 9737,
       "length": 12,
       "value": "\"KakaoMapsSDK.CameraUpdate\""
     },
@@ -56436,35 +57028,35 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 13964,
+      "offset": 13999,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 13984,
+      "offset": 14019,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 14009,
+      "offset": 14044,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "FloatLiteral",
-      "offset": 17080,
+      "offset": 17115,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "FloatLiteral",
-      "offset": 17101,
+      "offset": 17136,
       "length": 3,
       "value": "1.0"
     },
@@ -56562,14 +57154,14 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2978,
+      "offset": 3035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
       "kind": "BooleanLiteral",
-      "offset": 3711,
+      "offset": 3768,
       "length": 5,
       "value": "false"
     },

@@ -73,9 +73,10 @@ import _SwiftConcurrencyShims
   @objc var isStart: Swift.Bool { get }
 }
 @objc public class PerLevelPoiStyle : ObjectiveC.NSObject {
-  @objc public init(iconStyle: KakaoMapsSDK.PoiIconStyle, textStyle: KakaoMapsSDK.PoiTextStyle, padding: Swift.Float = 0.0, level: Swift.Int)
-  @objc public init(iconStyle: KakaoMapsSDK.PoiIconStyle, padding: Swift.Float = 0.0, level: Swift.Int)
-  @objc public var iconStyle: KakaoMapsSDK.PoiIconStyle {
+  @objc public init(iconStyle: KakaoMapsSDK.PoiIconStyle, padding: Swift.Float = 0.0, level: Swift.Int = 0)
+  @objc public init(textStyle: KakaoMapsSDK.PoiTextStyle, padding: Swift.Float = 0.0, level: Swift.Int = 0)
+  @objc public init(iconStyle: KakaoMapsSDK.PoiIconStyle, textStyle: KakaoMapsSDK.PoiTextStyle, padding: Swift.Float = 0.0, level: Swift.Int = 0)
+  @objc public var iconStyle: KakaoMapsSDK.PoiIconStyle? {
     @objc get
   }
   @objc public var textStyle: KakaoMapsSDK.PoiTextStyle? {
@@ -1144,19 +1145,32 @@ extension KakaoMapsSDK.RoadviewInfo {
   @objc deinit
 }
 @objc open class CameraPosition : ObjectiveC.NSObject, Foundation.NSCopying {
-  @objc required public init(target: KakaoMapsSDK.MapPoint, height: Swift.Double, rotation: Swift.Double, tilt: Swift.Double)
+  @objc public init(target: KakaoMapsSDK.MapPoint, height: Swift.Double, rotation: Swift.Double, tilt: Swift.Double)
+  @objc required public init(target: KakaoMapsSDK.MapPoint, zoomLevel: Swift.Int, rotation: Swift.Double, tilt: Swift.Double)
   @objc open func copy(with zone: ObjectiveC.NSZone?) -> Any
   @objc open var targetPoint: KakaoMapsSDK.MapPoint {
     @objc get
+    @objc set
   }
   @objc open var height: Swift.Double {
     @objc get
+    @objc set
   }
   @objc open var rotation: Swift.Double {
     @objc get
+    @objc set
   }
   @objc open var tilt: Swift.Double {
     @objc get
+    @objc set
+  }
+  @objc public var zoomLevel: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public var byLevel: Swift.Bool {
+    @objc get
+    @objc set
   }
   @objc deinit
 }
@@ -1500,6 +1514,10 @@ public protocol DisposableEventHandler {
     @objc set
   }
   @objc open var poiScale: KakaoMapsSDK.PoiScaleType {
+    @objc get
+    @objc set
+  }
+  @objc open var keepLevelOnResize: Swift.Bool {
     @objc get
     @objc set
   }
