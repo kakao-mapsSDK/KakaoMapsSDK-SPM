@@ -1306,7 +1306,7 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8ViewBase")
 /// 뷰의 이름
 - (NSString * _Nonnull)viewName SWIFT_WARN_UNUSED_RESULT;
 /// 뷰의 위치 및 크기.
-/// viewRect를 지정하면, view가 위치 및 크기가 업데이트된다.
+/// viewRect를 지정하면, view의 위치 및 크기가 업데이트된다.
 @property (nonatomic) CGRect viewRect;
 /// 생성한 View의 타입을 가져온다.
 @property (nonatomic, readonly) MapType mapType;
@@ -1436,6 +1436,8 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8KakaoMap")
 /// 지도상의 poi size를 조절한다. icon 크기도 함께 변한다.
 /// default값은 Regular
 @property (nonatomic) PoiScaleType poiScale;
+/// viewRect크기가 변할 때, 지도 각 레벨에 해당하는 카메라의 높이값이 재계산된다. 계산 후 레벨을 유지할 수 있도록 카메라를 조정할지 여부를 지정한다.
+/// true일 경우, 크기가 변하면 카메라 높이값이 레벨을 유지할 수 있게 재조정된다. 기본값 false.
 @property (nonatomic) BOOL keepLevelOnResize;
 /// 지도 위에 overlay를 표시한다.
 /// \param overlay 지도위에 표시하고자 하는 overlay 이름
@@ -6440,7 +6442,7 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8ViewBase")
 /// 뷰의 이름
 - (NSString * _Nonnull)viewName SWIFT_WARN_UNUSED_RESULT;
 /// 뷰의 위치 및 크기.
-/// viewRect를 지정하면, view가 위치 및 크기가 업데이트된다.
+/// viewRect를 지정하면, view의 위치 및 크기가 업데이트된다.
 @property (nonatomic) CGRect viewRect;
 /// 생성한 View의 타입을 가져온다.
 @property (nonatomic, readonly) MapType mapType;
@@ -6570,6 +6572,8 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8KakaoMap")
 /// 지도상의 poi size를 조절한다. icon 크기도 함께 변한다.
 /// default값은 Regular
 @property (nonatomic) PoiScaleType poiScale;
+/// viewRect크기가 변할 때, 지도 각 레벨에 해당하는 카메라의 높이값이 재계산된다. 계산 후 레벨을 유지할 수 있도록 카메라를 조정할지 여부를 지정한다.
+/// true일 경우, 크기가 변하면 카메라 높이값이 레벨을 유지할 수 있게 재조정된다. 기본값 false.
 @property (nonatomic) BOOL keepLevelOnResize;
 /// 지도 위에 overlay를 표시한다.
 /// \param overlay 지도위에 표시하고자 하는 overlay 이름
