@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "KakaoMapsSDK_SPM",
+    name: "KakaoMapsSDK-SPM",
     platforms: [.iOS(.v13), .macCatalyst(.v13)],
     
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "KakaoMapsSDK_SPM",
+            name: "KakaoMapsSDK-SPM",
             targets: ["KakaoMapsSDK-SPM"]),
     ],
     targets: [
