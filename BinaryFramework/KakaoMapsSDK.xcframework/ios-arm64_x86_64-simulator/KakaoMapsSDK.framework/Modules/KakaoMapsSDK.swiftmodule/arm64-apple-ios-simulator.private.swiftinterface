@@ -1521,6 +1521,10 @@ public protocol DisposableEventHandler {
     @objc get
     @objc set
   }
+  @objc public var tapInterval: Swift.UInt {
+    @objc get
+    @objc set
+  }
   @objc open func showOverlay(_ overlay: Swift.String)
   @objc open func hideOverlay(_ overlay: Swift.String)
   @objc open func showScaleBar()

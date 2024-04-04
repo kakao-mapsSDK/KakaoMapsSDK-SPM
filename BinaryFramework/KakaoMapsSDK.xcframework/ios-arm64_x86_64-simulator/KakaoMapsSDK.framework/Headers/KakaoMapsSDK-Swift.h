@@ -1439,6 +1439,9 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8KakaoMap")
 /// viewRect크기가 변할 때, 지도 각 레벨에 해당하는 카메라의 높이값이 재계산된다. 계산 후 레벨을 유지할 수 있도록 카메라를 조정할지 여부를 지정한다.
 /// true일 경우, 크기가 변하면 카메라 높이값이 레벨을 유지할 수 있게 재조정된다. 기본값 false.
 @property (nonatomic) BOOL keepLevelOnResize;
+/// Tap인식 사이의 시간.
+/// 탭이 인식되었을 때 연속된 제스쳐를 위한 인식 대기시간을 의미한다. 탭, 더블탭, 탭&드래그 제스쳐 등의 인식에 영향을 미친다. 단위 ms. 기본값 450ms
+@property (nonatomic) NSUInteger tapInterval;
 /// 지도 위에 overlay를 표시한다.
 /// \param overlay 지도위에 표시하고자 하는 overlay 이름
 ///
@@ -6575,6 +6578,9 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK8KakaoMap")
 /// viewRect크기가 변할 때, 지도 각 레벨에 해당하는 카메라의 높이값이 재계산된다. 계산 후 레벨을 유지할 수 있도록 카메라를 조정할지 여부를 지정한다.
 /// true일 경우, 크기가 변하면 카메라 높이값이 레벨을 유지할 수 있게 재조정된다. 기본값 false.
 @property (nonatomic) BOOL keepLevelOnResize;
+/// Tap인식 사이의 시간.
+/// 탭이 인식되었을 때 연속된 제스쳐를 위한 인식 대기시간을 의미한다. 탭, 더블탭, 탭&드래그 제스쳐 등의 인식에 영향을 미친다. 단위 ms. 기본값 450ms
+@property (nonatomic) NSUInteger tapInterval;
 /// 지도 위에 overlay를 표시한다.
 /// \param overlay 지도위에 표시하고자 하는 overlay 이름
 ///

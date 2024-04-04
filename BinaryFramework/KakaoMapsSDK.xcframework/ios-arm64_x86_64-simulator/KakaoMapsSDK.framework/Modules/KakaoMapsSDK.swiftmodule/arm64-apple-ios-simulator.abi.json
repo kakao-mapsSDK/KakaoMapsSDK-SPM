@@ -41507,6 +41507,95 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "tapInterval",
+            "printedName": "tapInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(py)tapInterval",
+            "mangledName": "$s12KakaoMapsSDK0A3MapC11tapIntervalSuvp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(im)tapInterval",
+                "mangledName": "$s12KakaoMapsSDK0A3MapC11tapIntervalSuvg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(im)setTapInterval:",
+                "mangledName": "$s12KakaoMapsSDK0A3MapC11tapIntervalSuvs",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK0A3MapC11tapIntervalSuvM",
+                "mangledName": "$s12KakaoMapsSDK0A3MapC11tapIntervalSuvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "showOverlay",
             "printedName": "showOverlay(_:)",
@@ -57029,35 +57118,35 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 13999,
+      "offset": 13903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 14019,
+      "offset": 13923,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 14044,
+      "offset": 13948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "FloatLiteral",
-      "offset": 17115,
+      "offset": 17019,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
       "kind": "FloatLiteral",
-      "offset": 17136,
+      "offset": 17040,
       "length": 3,
       "value": "1.0"
     },
