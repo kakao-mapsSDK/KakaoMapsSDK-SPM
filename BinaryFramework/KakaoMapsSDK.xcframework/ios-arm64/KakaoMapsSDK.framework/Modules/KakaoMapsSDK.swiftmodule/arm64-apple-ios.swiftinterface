@@ -1260,6 +1260,7 @@ extension KakaoMapsSDK.RoadviewInfo {
     set
   }
   @objc(textLayouts) public func objc_textLayout() -> Swift.Array<Swift.Int>
+  @objc(setTextLayouts:) public func objc_setTextLayout(_ layouts: Swift.Array<Swift.Int>)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class PoiTextLineStyle : ObjectiveC.NSObject {

@@ -93,17 +93,17 @@
 #pragma mark - View Controls
 
 /// SubView(ViewBase)를 추가한다.
-/// - parameter config: 추가할 subView에 대한 config
+/// - parameter viewInfo: 추가할 subView에 대한 config
 - (void)addView:(ViewInfo * _Nonnull)viewInfo;
 
 /// SubView(ViewBase)를 추가한다.
-/// - parameter config: 추가할 subView에 대한 config
+/// - parameter viewInfo: 추가할 subView에 대한 config
 /// - parameter timeoutInMillis: 네트웍을 통한 viewInfo 수신 타임아웃 시간. 단위 millisecond. 기본값 5000.
 - (void)addView:(ViewInfo * _Nonnull)viewInfo
         timeout:(NSUInteger)timeoutInMillis;
 
 /// SubView(ViewBase)를 추가한다.
-/// - parameter config : 추가할 subView에 대한 config
+/// - parameter viewInfo : 추가할 subView에 대한 config
 /// - parameter viewSize : 추가할 subView에 대한 size
 /// - parameter timeoutInMillis: 네트웍을 통한 viewInfo 수신 타임아웃 시간. 단위 millisecond. 기본값 5000.
 - (void)addView:(ViewInfo * _Nonnull)viewInfo
@@ -146,7 +146,6 @@
 ///       - fontName: 추가할 폰트 이름. 추가된 폰트를 사용할 때 지정하는 이름으로 사용된다.
 ///       - fontData: 폰트 파일의 binary data.
 /// - returns: 폰트 추가 결과. 성공시 True.
-
 - (BOOL)addFontWithName:(NSString * _Nonnull)fontName
                fontData:(NSData * _Nonnull)fontData NS_SWIFT_NAME( addFont(fontName:fontData:) );
 

@@ -3335,6 +3335,8 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK12PoiTextStyle")
 @property (nonatomic, readonly, copy) NSArray<PoiTextLineStyle *> * _Nonnull textLineStyles;
 /// text layouts(for obj-c)
 - (NSArray<NSNumber *> * _Nonnull)textLayouts SWIFT_WARN_UNUSED_RESULT;
+/// set text layouts(for obj-c)
+- (void)setTextLayouts:(NSArray<NSNumber *> * _Nonnull)layouts;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -8474,6 +8476,8 @@ SWIFT_CLASS("_TtC12KakaoMapsSDK12PoiTextStyle")
 @property (nonatomic, readonly, copy) NSArray<PoiTextLineStyle *> * _Nonnull textLineStyles;
 /// text layouts(for obj-c)
 - (NSArray<NSNumber *> * _Nonnull)textLayouts SWIFT_WARN_UNUSED_RESULT;
+/// set text layouts(for obj-c)
+- (void)setTextLayouts:(NSArray<NSNumber *> * _Nonnull)layouts;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
