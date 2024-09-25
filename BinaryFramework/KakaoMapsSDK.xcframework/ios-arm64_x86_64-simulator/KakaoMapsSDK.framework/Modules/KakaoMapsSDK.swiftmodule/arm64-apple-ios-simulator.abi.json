@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "KakaoMapsSDK",
+    "printedName": "KakaoMapsSDK",
     "children": [
       {
         "kind": "Import",
@@ -556,6 +556,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -971,6 +985,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1340,6 +1368,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1642,6 +1684,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2052,6 +2110,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2299,6 +2371,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2345,6 +2431,287 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouteAnimationEffect",
+        "printedName": "RouteAnimationEffect",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "interpolation",
+            "printedName": "interpolation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationInterpolation",
+                "printedName": "KakaoMapsSDK.AnimationInterpolation",
+                "usr": "c:@S@AnimationInterpolation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(py)interpolation",
+            "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP13interpolationSo0E13InterpolationVvp",
+            "moduleName": "KakaoMapsSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationInterpolation",
+                    "printedName": "KakaoMapsSDK.AnimationInterpolation",
+                    "usr": "c:@S@AnimationInterpolation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(im)interpolation",
+                "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP13interpolationSo0E13InterpolationVvg",
+                "moduleName": "KakaoMapsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : KakaoMapsSDK.RouteAnimationEffect>",
+                "sugared_genericSig": "<Self where Self : KakaoMapsSDK.RouteAnimationEffect>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationInterpolation",
+                    "printedName": "KakaoMapsSDK.AnimationInterpolation",
+                    "usr": "c:@S@AnimationInterpolation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(im)setInterpolation:",
+                "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP13interpolationSo0E13InterpolationVvs",
+                "moduleName": "KakaoMapsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : KakaoMapsSDK.RouteAnimationEffect>",
+                "sugared_genericSig": "<Self where Self : KakaoMapsSDK.RouteAnimationEffect>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hideAtStop",
+            "printedName": "hideAtStop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(py)hideAtStop",
+            "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP10hideAtStopSbvp",
+            "moduleName": "KakaoMapsSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(im)hideAtStop",
+                "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP10hideAtStopSbvg",
+                "moduleName": "KakaoMapsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : KakaoMapsSDK.RouteAnimationEffect>",
+                "sugared_genericSig": "<Self where Self : KakaoMapsSDK.RouteAnimationEffect>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(im)setHideAtStop:",
+                "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP10hideAtStopSbvs",
+                "moduleName": "KakaoMapsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : KakaoMapsSDK.RouteAnimationEffect>",
+                "sugared_genericSig": "<Self where Self : KakaoMapsSDK.RouteAnimationEffect>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resetToInitialState",
+            "printedName": "resetToInitialState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(py)resetToInitialState",
+            "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP19resetToInitialStateSbvp",
+            "moduleName": "KakaoMapsSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(im)resetToInitialState",
+                "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP19resetToInitialStateSbvg",
+                "moduleName": "KakaoMapsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : KakaoMapsSDK.RouteAnimationEffect>",
+                "sugared_genericSig": "<Self where Self : KakaoMapsSDK.RouteAnimationEffect>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect(im)setResetToInitialState:",
+                "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP19resetToInitialStateSbvs",
+                "moduleName": "KakaoMapsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : KakaoMapsSDK.RouteAnimationEffect>",
+                "sugared_genericSig": "<Self where Self : KakaoMapsSDK.RouteAnimationEffect>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect",
+        "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP",
+        "moduleName": "KakaoMapsSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -2623,6 +2990,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2888,6 +3269,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3134,6 +3529,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3405,6 +3814,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3462,6 +3885,714 @@
         "moduleName": "KakaoMapsSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProgressAnimationEffect",
+        "printedName": "ProgressAnimationEffect",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(direction:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProgressAnimationEffect",
+                "printedName": "KakaoMapsSDK.ProgressAnimationEffect",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProgressDirection",
+                "printedName": "KakaoMapsSDK.ProgressDirection",
+                "usr": "c:@E@ProgressDirection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RouteProgressType",
+                "printedName": "KakaoMapsSDK.RouteProgressType",
+                "usr": "c:@E@RouteProgressType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)initWithDirection:type:",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC9direction4typeACSo0D9DirectionV_So05RouteD4TypeVtcfc",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "initWithDirection:type:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "startPoint",
+            "printedName": "startPoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(py)startPoint",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC10startPointSfvp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)startPoint",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC10startPointSfvg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endPoint",
+            "printedName": "endPoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(py)endPoint",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC8endPointSfvp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)endPoint",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC8endPointSfvg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "direction",
+            "printedName": "direction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProgressDirection",
+                "printedName": "KakaoMapsSDK.ProgressDirection",
+                "usr": "c:@E@ProgressDirection"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(py)direction",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC9directionSo0D9DirectionVvp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProgressDirection",
+                    "printedName": "KakaoMapsSDK.ProgressDirection",
+                    "usr": "c:@E@ProgressDirection"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)direction",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC9directionSo0D9DirectionVvg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProgressDirection",
+                    "printedName": "KakaoMapsSDK.ProgressDirection",
+                    "usr": "c:@E@ProgressDirection"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)setDirection:",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC9directionSo0D9DirectionVvs",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK23ProgressAnimationEffectC9directionSo0D9DirectionVvM",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC9directionSo0D9DirectionVvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RouteProgressType",
+                "printedName": "KakaoMapsSDK.RouteProgressType",
+                "usr": "c:@E@RouteProgressType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(py)type",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC4typeSo05RouteD4TypeVvp",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RouteProgressType",
+                    "printedName": "KakaoMapsSDK.RouteProgressType",
+                    "usr": "c:@E@RouteProgressType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)type",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC4typeSo05RouteD4TypeVvg",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RouteProgressType",
+                    "printedName": "KakaoMapsSDK.RouteProgressType",
+                    "usr": "c:@E@RouteProgressType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)setType:",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC4typeSo05RouteD4TypeVvs",
+                "moduleName": "KakaoMapsSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK23ProgressAnimationEffectC4typeSo05RouteD4TypeVvM",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC4typeSo05RouteD4TypeVvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interpolation",
+            "printedName": "interpolation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationInterpolation",
+                "printedName": "KakaoMapsSDK.AnimationInterpolation",
+                "usr": "c:@S@AnimationInterpolation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(py)interpolation",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC13interpolationSo0E13InterpolationVvp",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "interpolation",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationInterpolation",
+                    "printedName": "KakaoMapsSDK.AnimationInterpolation",
+                    "usr": "c:@S@AnimationInterpolation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)interpolation",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC13interpolationSo0E13InterpolationVvg",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "interpolation",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationInterpolation",
+                    "printedName": "KakaoMapsSDK.AnimationInterpolation",
+                    "usr": "c:@S@AnimationInterpolation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)setInterpolation:",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC13interpolationSo0E13InterpolationVvs",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "setInterpolation:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK23ProgressAnimationEffectC13interpolationSo0E13InterpolationVvM",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC13interpolationSo0E13InterpolationVvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hideAtStop",
+            "printedName": "hideAtStop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(py)hideAtStop",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC10hideAtStopSbvp",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "hideAtStop",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)hideAtStop",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC10hideAtStopSbvg",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "hideAtStop",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)setHideAtStop:",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC10hideAtStopSbvs",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "setHideAtStop:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK23ProgressAnimationEffectC10hideAtStopSbvM",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC10hideAtStopSbvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resetToInitialState",
+            "printedName": "resetToInitialState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(py)resetToInitialState",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC19resetToInitialStateSbvp",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "resetToInitialState",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)resetToInitialState",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC19resetToInitialStateSbvg",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "resetToInitialState",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)setResetToInitialState:",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC19resetToInitialStateSbvs",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "setResetToInitialState:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK23ProgressAnimationEffectC19resetToInitialStateSbvM",
+                "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC19resetToInitialStateSbvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProgressAnimationEffect",
+                "printedName": "KakaoMapsSDK.ProgressAnimationEffect",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect(im)init",
+            "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectCACycfc",
+            "moduleName": "KakaoMapsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KakaoMapsSDK@objc(cs)ProgressAnimationEffect",
+        "mangledName": "$s12KakaoMapsSDK23ProgressAnimationEffectC",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RouteAnimationEffect",
+            "printedName": "RouteAnimationEffect",
+            "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect",
+            "mangledName": "$s12KakaoMapsSDK20RouteAnimationEffectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -3866,6 +4997,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4224,6 +5369,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4766,6 +5925,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5023,6 +6196,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5337,6 +6524,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5653,6 +6856,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5811,6 +7030,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6426,6 +7661,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7129,6 +8378,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7497,6 +8760,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7909,6 +9186,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8563,6 +9856,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9051,6 +10358,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11459,6 +12780,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13108,6 +14443,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13323,6 +14672,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14275,6 +15638,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14856,6 +16233,20 @@
             "printedName": "InfoWindowAnimationEffect",
             "usr": "c:@M@KakaoMapsSDK@objc(pl)InfoWindowAnimationEffect",
             "mangledName": "$s12KakaoMapsSDK25InfoWindowAnimationEffectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -15466,6 +16857,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15661,6 +17066,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15861,6 +17280,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -16057,6 +17490,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16350,6 +17797,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16835,6 +18296,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17188,6 +18663,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17320,6 +18809,20 @@
             "printedName": "PoiAnimationEffect",
             "usr": "c:@M@KakaoMapsSDK@objc(pl)PoiAnimationEffect",
             "mangledName": "$s12KakaoMapsSDK18PoiAnimationEffectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -17458,6 +18961,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17593,6 +19110,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17725,6 +19256,20 @@
             "printedName": "PoiAnimationEffect",
             "usr": "c:@M@KakaoMapsSDK@objc(pl)PoiAnimationEffect",
             "mangledName": "$s12KakaoMapsSDK18PoiAnimationEffectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -18121,6 +19666,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -18316,6 +19875,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19102,6 +20675,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -19677,6 +21264,20 @@
             "printedName": "Label",
             "usr": "c:@M@KakaoMapsSDK@objc(pl)Label",
             "mangledName": "$s12KakaoMapsSDK5LabelP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -20848,6 +22449,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -21415,6 +23030,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -21938,6 +23567,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -22534,6 +24177,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -22947,6 +24604,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24159,6 +25830,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -24490,6 +26175,122 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "symbol",
+            "printedName": "symbol",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)PanoramaMarker(py)symbol",
+            "mangledName": "$s12KakaoMapsSDK14PanoramaMarkerC6symbolSo7UIImageCSgvp",
+            "moduleName": "KakaoMapsSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)PanoramaMarker(im)symbol",
+                "mangledName": "$s12KakaoMapsSDK14PanoramaMarkerC6symbolSo7UIImageCSgvg",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)PanoramaMarker(im)setSymbol:",
+                "mangledName": "$s12KakaoMapsSDK14PanoramaMarkerC6symbolSo7UIImageCSgvs",
+                "moduleName": "KakaoMapsSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12KakaoMapsSDK14PanoramaMarkerC6symbolSo7UIImageCSgvM",
+                "mangledName": "$s12KakaoMapsSDK14PanoramaMarkerC6symbolSo7UIImageCSgvM",
+                "moduleName": "KakaoMapsSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -24531,6 +26332,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24779,6 +26594,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -25368,6 +27197,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -26011,6 +27854,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -26549,6 +28406,432 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouteAnimator",
+        "printedName": "RouteAnimator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)start",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC5startyyF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "start",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)stop",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC4stopyyF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "stop",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStopCallback",
+            "printedName": "setStopCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(((any KakaoMapsSDK.Animator)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any KakaoMapsSDK.Animator)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any KakaoMapsSDK.Animator)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animator",
+                            "printedName": "any KakaoMapsSDK.Animator",
+                            "usr": "c:@M@KakaoMapsSDK@objc(pl)Animator"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)setStopCallback:",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC15setStopCallbackyyyAA0E0_pSgcSgF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "setStopCallback:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRoute",
+            "printedName": "addRoute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "KakaoMapsSDK.Route",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)Route"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)addRoute:",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC03addD0yyAA0D0CF",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRoutes",
+            "printedName": "addRoutes(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[KakaoMapsSDK.Route]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Route",
+                    "printedName": "KakaoMapsSDK.Route",
+                    "usr": "c:@M@KakaoMapsSDK@objc(cs)Route"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)addRoutes:",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC9addRoutesyySayAA0D0CGF",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAllRoutes",
+            "printedName": "clearAllRoutes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)clearAllRoutes",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC14clearAllRoutesyyF",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "animatorID",
+            "printedName": "animatorID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(py)animatorID",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC10animatorIDSSvp",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "animatorID",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)animatorID",
+                "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC10animatorIDSSvg",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "animatorID",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStart",
+            "printedName": "isStart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(py)isStart",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC7isStartSbvp",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "isStart",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)isStart",
+                "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC7isStartSbvg",
+                "moduleName": "KakaoMapsSDK",
+                "objc_name": "isStart",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RouteAnimator",
+                "printedName": "KakaoMapsSDK.RouteAnimator",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator(im)init",
+            "mangledName": "$s12KakaoMapsSDK13RouteAnimatorCACycfc",
+            "moduleName": "KakaoMapsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator",
+        "mangledName": "$s12KakaoMapsSDK13RouteAnimatorC",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Animator",
+            "printedName": "Animator",
+            "usr": "c:@M@KakaoMapsSDK@objc(pl)Animator",
+            "mangledName": "$s12KakaoMapsSDK8AnimatorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -28117,6 +30400,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -28426,6 +30723,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -28643,6 +30954,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -28930,6 +31255,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -29362,6 +31701,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -29557,6 +31910,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -30261,6 +32628,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -30396,6 +32777,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -30866,6 +33261,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -31300,6 +33709,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -32085,6 +34508,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -32642,6 +35079,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -33381,6 +35832,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -33712,6 +36177,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -34252,6 +36731,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -34466,6 +36959,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -34929,6 +37436,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -35344,6 +37865,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -35659,6 +38194,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -36112,6 +38661,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -36274,6 +38837,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -36469,6 +39048,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -36574,6 +39169,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -36679,6 +39290,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -36784,6 +39411,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -36889,6 +39532,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37055,6 +39714,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37176,6 +39851,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37281,6 +39972,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37626,6 +40333,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37882,6 +40605,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -37921,6 +40660,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -38204,6 +40959,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -38612,6 +41381,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -38888,6 +41671,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -39307,6 +42104,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -40002,6 +42813,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -41260,6 +44087,108 @@
               "Available",
               "Available",
               "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMaxCountPerTile",
+            "printedName": "setMaxCountPerTile(category:count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LabelCategory",
+                "printedName": "KakaoMapsSDK.LabelCategory",
+                "usr": "c:@E@LabelCategory"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(im)setMaxCountPerTileWithCategory:count:",
+            "mangledName": "$s12KakaoMapsSDK0A3MapC18setMaxCountPerTile8category5countySo13LabelCategoryV_SutF",
+            "moduleName": "KakaoMapsSDK",
+            "isOpen": true,
+            "objc_name": "setMaxCountPerTileWithCategory:count:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetMaxCountPerTile",
+            "printedName": "resetMaxCountPerTile(category:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LabelCategory",
+                "printedName": "KakaoMapsSDK.LabelCategory",
+                "usr": "c:@E@LabelCategory"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(im)resetMaxCountPerTileWithCategory:",
+            "mangledName": "$s12KakaoMapsSDK0A3MapC20resetMaxCountPerTile8categoryySo13LabelCategoryV_tF",
+            "moduleName": "KakaoMapsSDK",
+            "isOpen": true,
+            "objc_name": "resetMaxCountPerTileWithCategory:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLabelCategoryVisible",
+            "printedName": "setLabelCategoryVisible(category:visible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LabelCategory",
+                "printedName": "KakaoMapsSDK.LabelCategory",
+                "usr": "c:@E@LabelCategory"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)KakaoMap(im)setLabelCategoryVisibleWithCategory:visible:",
+            "mangledName": "$s12KakaoMapsSDK0A3MapC23setLabelCategoryVisible8category7visibleySo0fG0V_SbtF",
+            "moduleName": "KakaoMapsSDK",
+            "isOpen": true,
+            "objc_name": "setLabelCategoryVisibleWithCategory:visible:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -43202,6 +46131,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -43783,6 +46726,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -44464,6 +47421,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -44626,6 +47597,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -44955,6 +47940,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -45210,6 +48209,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -45610,6 +48623,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -45922,6 +48949,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -46118,6 +49161,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -46897,6 +49956,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -47305,6 +50378,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -47362,6 +50449,64 @@
         "moduleName": "KakaoMapsSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RoutePointInfo",
+        "printedName": "RoutePointInfo",
+        "declKind": "Struct",
+        "usr": "s:12KakaoMapsSDK14RoutePointInfoV",
+        "mangledName": "$s12KakaoMapsSDK14RoutePointInfoV",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouteProgressInfo",
+        "printedName": "RouteProgressInfo",
+        "declKind": "Struct",
+        "usr": "s:12KakaoMapsSDK17RouteProgressInfoV",
+        "mangledName": "$s12KakaoMapsSDK17RouteProgressInfoV",
+        "moduleName": "KakaoMapsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -47452,6 +50597,178 @@
             "declAttributes": [
               "AccessControl",
               "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProgressAlongRouteLine",
+            "printedName": "getProgressAlongRouteLine(position:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapPoint",
+                "printedName": "KakaoMapsSDK.MapPoint",
+                "usr": "c:@M@KakaoMapsSDK@objc(cs)MapPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)Route(im)getProgressAlongRouteLineWithPosition:",
+            "mangledName": "$s12KakaoMapsSDK5RouteC016getProgressAlongD4Line8positionSfAA8MapPointC_tF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "getProgressAlongRouteLineWithPosition:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRoutePointInfoOnRoute",
+            "printedName": "getRoutePointInfoOnRoute(progress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KakaoMapsSDK.RoutePointInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RoutePointInfo",
+                    "printedName": "KakaoMapsSDK.RoutePointInfo",
+                    "usr": "s:12KakaoMapsSDK14RoutePointInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12KakaoMapsSDK5RouteC03getd11PointInfoOnD08progressAA0dfG0VSgSf_tF",
+            "mangledName": "$s12KakaoMapsSDK5RouteC03getd11PointInfoOnD08progressAA0dfG0VSgSf_tF",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setProgress",
+            "printedName": "setProgress(progress:type:duration:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RouteProgressType",
+                "printedName": "KakaoMapsSDK.RouteProgressType",
+                "usr": "c:@E@RouteProgressType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KakaoMapsSDK.Route?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KakaoMapsSDK.Route?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "KakaoMapsSDK.Route?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Route",
+                            "printedName": "KakaoMapsSDK.Route",
+                            "usr": "c:@M@KakaoMapsSDK@objc(cs)Route"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)Route(im)setProgressWithProgress:type:duration:callback:",
+            "mangledName": "$s12KakaoMapsSDK5RouteC11setProgress8progress4type8duration8callbackySf_So0dF4TypeVSuyACSgcSgtF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "setProgressWithProgress:type:duration:callback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProgress",
+            "printedName": "getProgress()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KakaoMapsSDK.RouteProgressInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RouteProgressInfo",
+                    "printedName": "KakaoMapsSDK.RouteProgressInfo",
+                    "usr": "s:12KakaoMapsSDK17RouteProgressInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12KakaoMapsSDK5RouteC11getProgressAA0dF4InfoVSgyF",
+            "mangledName": "$s12KakaoMapsSDK5RouteC11getProgressAA0dF4InfoVSgyF",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -47832,6 +51149,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -48411,6 +51742,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -48615,6 +51960,139 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "addRouteAnimator",
+            "printedName": "addRouteAnimator(animatorID:effect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KakaoMapsSDK.RouteAnimator?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RouteAnimator",
+                    "printedName": "KakaoMapsSDK.RouteAnimator",
+                    "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RouteAnimationEffect",
+                "printedName": "any KakaoMapsSDK.RouteAnimationEffect",
+                "usr": "c:@M@KakaoMapsSDK@objc(pl)RouteAnimationEffect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteManager(im)addRouteAnimatorWithAnimatorID:effect:",
+            "mangledName": "$s12KakaoMapsSDK12RouteManagerC03addD8Animator10animatorID6effectAA0dG0CSgSS_AA0D15AnimationEffect_ptF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "addRouteAnimatorWithAnimatorID:effect:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeRouteAnimator",
+            "printedName": "removeRouteAnimator(animatorID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteManager(im)removeRouteAnimatorWithAnimatorID:",
+            "mangledName": "$s12KakaoMapsSDK12RouteManagerC06removeD8Animator10animatorIDySS_tF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "removeRouteAnimatorWithAnimatorID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAllRouteAnimators",
+            "printedName": "clearAllRouteAnimators()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteManager(im)clearAllRouteAnimators",
+            "mangledName": "$s12KakaoMapsSDK12RouteManagerC08clearAllD9AnimatorsyyF",
+            "moduleName": "KakaoMapsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRouteAnimator",
+            "printedName": "getRouteAnimator(animatorID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KakaoMapsSDK.RouteAnimator?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RouteAnimator",
+                    "printedName": "KakaoMapsSDK.RouteAnimator",
+                    "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteAnimator"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)RouteManager(im)getRouteAnimatorWithAnimatorID:",
+            "mangledName": "$s12KakaoMapsSDK12RouteManagerC03getD8Animator10animatorIDAA0dG0CSgSS_tF",
+            "moduleName": "KakaoMapsSDK",
+            "objc_name": "getRouteAnimatorWithAnimatorID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -48656,6 +52134,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -48948,6 +52440,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -49612,6 +53118,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -50079,6 +53599,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -51787,6 +55323,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -52171,6 +55721,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -52707,6 +56271,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -52939,6 +56517,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -53393,6 +56985,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -53842,6 +57448,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -54556,6 +58176,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -55295,6 +58929,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -55784,6 +59432,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -56201,6 +59863,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -56399,6 +60075,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -56495,27 +60185,6 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/TextStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 275,
-      "length": 9,
-      "value": "\"KakaoMapsSDK.TextStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGuiLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 14,
-      "value": "\"KakaoMapsSDK.SpriteGuiLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineStyleSet.swift",
-      "kind": "StringLiteral",
-      "offset": 670,
-      "length": 16,
-      "value": "\"KakaoMapsSDK.PolylineStyleSet\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
       "kind": "FloatLiteral",
       "offset": 925,
@@ -56558,20 +60227,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 448,
-      "length": 16,
-      "value": "\"KakaoMapsSDK.PerLevelPoiStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 3278,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.PoiStyle\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/viewInfo\/MapviewInfo+OpenAPI.swift",
       "kind": "StringLiteral",
       "offset": 816,
@@ -56600,172 +60255,11 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 470,
-      "length": 21,
-      "value": "\"KakaoMapsSDK.PerLevelWaveTextStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 1827,
-      "length": 13,
-      "value": "\"KakaoMapsSDK.WaveTextStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolyline.swift",
-      "kind": "StringLiteral",
-      "offset": 468,
-      "length": 11,
-      "value": "\"KakaoMapsSDK.MapPolyline\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Polygon.swift",
-      "kind": "StringLiteral",
-      "offset": 756,
-      "length": 7,
-      "value": "\"KakaoMapsSDK.Polygon\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiBadge.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.PoiBadge\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShapeOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 762,
-      "length": 20,
-      "value": "\"KakaoMapsSDK.PolylineShapeOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Polyline.swift",
-      "kind": "StringLiteral",
-      "offset": 500,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.Polyline\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineShape.swift",
-      "kind": "StringLiteral",
-      "offset": 708,
-      "length": 13,
-      "value": "\"KakaoMapsSDK.PolylineShape\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/RoadviewLookAt.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 14,
-      "value": "\"KakaoMapsSDK.RoadviewLookAt\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonShape.swift",
-      "kind": "StringLiteral",
-      "offset": 701,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.PolygonShape\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 461,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.ShapeLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 491,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.LabelLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.RouteStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/SpriteGui.swift",
-      "kind": "StringLiteral",
-      "offset": 283,
-      "length": 9,
-      "value": "\"KakaoMapsSDK.SpriteGui\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/DropAnimationEffect.swift",
-      "kind": "StringLiteral",
-      "offset": 368,
-      "length": 19,
-      "value": "\"KakaoMapsSDK.DropAnimationEffect\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelLayerOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 198,
-      "length": 17,
-      "value": "\"KakaoMapsSDK.LabelLayerOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "StringLiteral",
-      "offset": 272,
-      "length": 17,
-      "value": "\"KakaoMapsSDK.AnimationKeyFrame\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "StringLiteral",
-      "offset": 968,
-      "length": 22,
-      "value": "\"KakaoMapsSDK.ScaleAnimationKeyFrame\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "StringLiteral",
-      "offset": 1712,
-      "length": 22,
-      "value": "\"KakaoMapsSDK.AlphaAnimationKeyFrame\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "StringLiteral",
-      "offset": 2413,
-      "length": 27,
-      "value": "\"KakaoMapsSDK.ScaleAlphaAnimationKeyFrame\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/animation\/KeyframeAnimationEffect.swift",
-      "kind": "StringLiteral",
-      "offset": 3530,
-      "length": 26,
-      "value": "\"KakaoMapsSDK.TransformAnimationKeyFrame\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 20,
-      "value": "\"KakaoMapsSDK.PerLevelPolygonStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 2112,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.PolygonStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindow.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.InfoWindow\""
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5505,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveText.swift",
@@ -56773,13 +60267,6 @@
       "offset": 1993,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveText.swift",
-      "kind": "StringLiteral",
-      "offset": 708,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.WaveText\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo+OpenSDK.swift",
@@ -56817,20 +60304,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodPoi.swift",
-      "kind": "StringLiteral",
-      "offset": 876,
-      "length": 6,
-      "value": "\"KakaoMapsSDK.LodPoi\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolylineShape.swift",
-      "kind": "StringLiteral",
-      "offset": 900,
-      "length": 16,
-      "value": "\"KakaoMapsSDK.MapPolylineShape\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiIconStyle.swift",
       "kind": "FloatLiteral",
       "offset": 1476,
@@ -56859,123 +60332,11 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiIconStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.PoiIconStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiLayout.swift",
-      "kind": "StringLiteral",
-      "offset": 423,
-      "length": 9,
-      "value": "\"KakaoMapsSDK.GuiLayout\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.ShapeManager\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 683,
-      "length": 13,
-      "value": "\"KakaoMapsSDK.LodLabelLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/panorama\/PanoramaMarker.swift",
-      "kind": "StringLiteral",
-      "offset": 214,
-      "length": 14,
-      "value": "\"KakaoMapsSDK.PanoramaMarker\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/MapviewInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 520,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/MapviewInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 11,
-      "value": "\"KakaoMapsSDK.MapviewInfo\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LabelManager.swift",
-      "kind": "StringLiteral",
-      "offset": 498,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.LabelManager\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/WaveTextOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 15,
-      "value": "\"KakaoMapsSDK.WaveTextOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonShapeOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 741,
-      "length": 19,
-      "value": "\"KakaoMapsSDK.PolygonShapeOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/DimScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 464,
-      "length": 9,
-      "value": "\"KakaoMapsSDK.DimScreen\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/common\/ViewBase.swift",
-      "kind": "StringLiteral",
-      "offset": 243,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.ViewBase\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/map\/zone\/ZoneManager.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 11,
-      "value": "\"KakaoMapsSDK.ZoneManager\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiText.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 7,
-      "value": "\"KakaoMapsSDK.GuiText\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 21,
-      "value": "\"KakaoMapsSDK.PerLevelPolylineStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolylineStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 2393,
-      "length": 13,
-      "value": "\"KakaoMapsSDK.PolylineStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/LodLabelLayerOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 20,
-      "value": "\"KakaoMapsSDK.LodLabelLayerOptions\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
@@ -57013,27 +60374,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 224,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.RoadviewInfo\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "StringLiteral",
-      "offset": 299,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.AreaRect\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "StringLiteral",
-      "offset": 3686,
-      "length": 14,
-      "value": "\"KakaoMapsSDK.CameraPosition\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
       "kind": "BooleanLiteral",
       "offset": 9832,
@@ -57046,20 +60386,6 @@
       "offset": 12665,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/CameraUpdate.swift",
-      "kind": "StringLiteral",
-      "offset": 9737,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.CameraUpdate\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/viewInfo\/ViewInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 336,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.ViewInfo\""
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiTextStyle.swift",
@@ -57076,53 +60402,25 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiTextStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 632,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.PoiTextStyle\""
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentGroup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2640,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 228,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.RouteOptions\""
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentGroup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2644,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindowLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 220,
-      "length": 15,
-      "value": "\"KakaoMapsSDK.InfoWindowLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/PolygonStyleSet.swift",
-      "kind": "StringLiteral",
-      "offset": 674,
-      "length": 15,
-      "value": "\"KakaoMapsSDK.PolygonStyleSet\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygon.swift",
-      "kind": "StringLiteral",
-      "offset": 748,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.MapPolygon\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/GuiManager.swift",
-      "kind": "StringLiteral",
-      "offset": 505,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.GuiManager\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteStyleSet.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 13,
-      "value": "\"KakaoMapsSDK.RouteStyleSet\""
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiComponentGroup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2651,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
@@ -57151,6 +60449,132 @@
       "offset": 264,
       "length": 9,
       "value": "6378137.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8094,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8122,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 8341,
+      "length": 6,
+      "value": "1200.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 8431,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 8731,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 8779,
+      "length": 4,
+      "value": "-0.5"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 8869,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 8985,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9060,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9082,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9153,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9164,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9186,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9196,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9256,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9267,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9289,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/Primitives.swift",
+      "kind": "FloatLiteral",
+      "offset": 9299,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
@@ -57188,27 +60612,6 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/KakaoMap.swift",
-      "kind": "StringLiteral",
-      "offset": 4403,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.KakaoMap\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiImage.swift",
-      "kind": "StringLiteral",
-      "offset": 452,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.GuiImage\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/ShapeAnimator.swift",
-      "kind": "StringLiteral",
-      "offset": 535,
-      "length": 13,
-      "value": "\"KakaoMapsSDK.ShapeAnimator\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/SDKInitializer.swift",
       "kind": "StringLiteral",
       "offset": 1081,
@@ -57216,67 +60619,32 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteSegment.swift",
-      "kind": "StringLiteral",
-      "offset": 512,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.RouteSegment\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/InfoWindowAnimator.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 18,
-      "value": "\"KakaoMapsSDK.InfoWindowAnimator\""
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4336,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
-      "kind": "StringLiteral",
-      "offset": 305,
-      "length": 8,
-      "value": "\"KakaoMapsSDK.Roadview\""
+      "kind": "IntegerLiteral",
+      "offset": 4361,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiAnimator.swift",
-      "kind": "StringLiteral",
-      "offset": 527,
-      "length": 11,
-      "value": "\"KakaoMapsSDK.PoiAnimator\""
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4634,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/Route.swift",
-      "kind": "StringLiteral",
-      "offset": 1069,
-      "length": 5,
-      "value": "\"KakaoMapsSDK.Route\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygonShape.swift",
-      "kind": "StringLiteral",
-      "offset": 894,
-      "length": 15,
-      "value": "\"KakaoMapsSDK.MapPolygonShape\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteManager.swift",
-      "kind": "StringLiteral",
-      "offset": 461,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.RouteManager\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/TrackingManager.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 15,
-      "value": "\"KakaoMapsSDK.TrackingManager\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 196,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.PoiOptions\""
+      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/panorama\/Roadview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4659,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
@@ -57293,55 +60661,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/Poi.swift",
-      "kind": "StringLiteral",
-      "offset": 891,
-      "length": 3,
-      "value": "\"KakaoMapsSDK.Poi\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/animation\/WaveAnimationEffect.swift",
-      "kind": "StringLiteral",
-      "offset": 231,
-      "length": 17,
-      "value": "\"KakaoMapsSDK.WaveAnimationData\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/label\/PoiText.swift",
-      "kind": "StringLiteral",
-      "offset": 253,
-      "length": 7,
-      "value": "\"KakaoMapsSDK.PoiText\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolylineShapeOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 839,
-      "length": 23,
-      "value": "\"KakaoMapsSDK.MapPolylineShapeOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/shape\/MapPolygonShapeOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 720,
-      "length": 22,
-      "value": "\"KakaoMapsSDK.MapPolygonShapeOptions\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/RouteLayer.swift",
-      "kind": "StringLiteral",
-      "offset": 467,
-      "length": 10,
-      "value": "\"KakaoMapsSDK.RouteLayer\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/gui\/components\/GuiAnimatedImage.swift",
-      "kind": "StringLiteral",
-      "offset": 400,
-      "length": 16,
-      "value": "\"KakaoMapsSDK.GuiAnimatedImage\""
-    },
-    {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/PerLevelRouteStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 806,
@@ -57354,20 +60673,6 @@
       "offset": 1372,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/PerLevelRouteStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 18,
-      "value": "\"KakaoMapsSDK.PerLevelRouteStyle\""
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/api\/map\/route\/PerLevelRouteStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 2440,
-      "length": 12,
-      "value": "\"KakaoMapsSDK.RoutePattern\""
     }
   ]
 }

@@ -12,6 +12,10 @@ let package = Package(
         .library(
             name: "KakaoMapsSDK-SPM",
             targets: ["KakaoMapsSDK-SPM"]),
+        .library(
+            name: "KakaoMapsSDK-SPM-Dynamic",
+            type: .dynamic,
+            targets: ["KakaoMapsSDK-SPM"])
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
