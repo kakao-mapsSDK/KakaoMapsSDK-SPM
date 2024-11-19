@@ -26201,7 +26201,8 @@
             "isOpen": true,
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -47502,7 +47503,7 @@
           {
             "kind": "Function",
             "name": "InitSDK",
-            "printedName": "InitSDK(appKey:)",
+            "printedName": "InitSDK(appKey:phase:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -47514,19 +47515,50 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KAPhase",
+                "printedName": "KakaoMapsSDK.KAPhase",
+                "hasDefaultArg": true,
+                "usr": "c:@E@KAPhase"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer(cm)InitSDKWithAppKey:",
-            "mangledName": "$s12KakaoMapsSDK14SDKInitializerC04InitC06appKeyySS_tFZ",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer(cm)InitSDKWithAppKey:phase:",
+            "mangledName": "$s12KakaoMapsSDK14SDKInitializerC04InitC06appKey5phaseySS_So7KAPhaseVtFZ",
             "moduleName": "KakaoMapsSDK",
             "static": true,
-            "objc_name": "InitSDKWithAppKey:",
+            "objc_name": "InitSDKWithAppKey:phase:",
             "declAttributes": [
               "Final",
               "AccessControl",
               "ObjC",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "GetPhase",
+            "printedName": "GetPhase()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KAPhase",
+                "printedName": "KakaoMapsSDK.KAPhase",
+                "usr": "c:@E@KAPhase"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KakaoMapsSDK@objc(cs)SDKInitializer(cm)GetPhase",
+            "mangledName": "$s12KakaoMapsSDK14SDKInitializerC8GetPhaseSo7KAPhaseVyFZ",
+            "moduleName": "KakaoMapsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -60334,7 +60366,7 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/MapviewInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 520,
+      "offset": 531,
       "length": 4,
       "value": "true"
     },
@@ -60362,14 +60394,7 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 799,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/viewInfo\/RoadviewInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 836,
+      "offset": 847,
       "length": 4,
       "value": "true"
     },
@@ -60614,7 +60639,7 @@
     {
       "filePath": "\/Users\/chase\/Workspace\/K3f_API_iOS\/D3FApi\/VectorMapAPI_swift\/VectorMapAPI_swift\/Api\/SDKInitializer.swift",
       "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 1102,
       "length": 2,
       "value": "\"\""
     },

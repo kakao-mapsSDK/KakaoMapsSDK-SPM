@@ -10,6 +10,13 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, ViewInfoStage) {
+    ViewInfoStageProd = 0,
+    ViewInfoStageCbt,
+    ViewInfoStageDev,
+    ViewInfoStageAlpha
+};
+
 /// RouteLine의 진행 형태
 typedef NS_ENUM(NSInteger, RouteProgressType) {
     /// 시작점부터 지정된 지점까지 비워지게 진행됨
