@@ -1,10 +1,10 @@
 [
   {
     "type": "pass",
-    "vp": "route/vector_route_per_level_palette_vp",
-    "fp": "route/vector_route_per_level_palette_fp",
-    "metal": "route/vector_route_per_level_palette.metal",
-    "vertex_preset": "RouteVertex",
+    "vp": "vector_per_level_palette/vector_per_level_palette_vp",
+    "fp": "vector_per_level_palette/vector_per_level_palette_fp",
+    "metal": "vector_per_level_palette/vector_per_level_palette.metal",
+    "vertex_preset": "DFVertex",
     "depth": {
       "write": false,
       "compare": "always"
@@ -15,7 +15,7 @@
       "source_alpha": "one",
       "dest_alpha": "one_minus_source_alpha"
     },
-    "cull" : "back"
+    "cull" : "none"
   },
   {
     "type": "pass",
