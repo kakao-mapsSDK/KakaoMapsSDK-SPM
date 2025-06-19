@@ -1,12 +1,9 @@
 {
   "render_targets": [
-    {
-      "type": "default"
-    }
   ],
   "render_pass": [
     {
-      "render_target": 0,
+      "render_target": "default",
       "clear_color": "0xF7F7EFFF",
       "clear_depth": 1,
       "clear_stencil": 0,

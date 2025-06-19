@@ -147,4 +147,14 @@ struct EulerAngle{
     double roll;
 };
 
+/// RouteLine상의 특정 지점 정보를 표현하기 위한 구조체
+struct RPInfo {
+    /// longitude
+    double lon;
+    /// latitude
+    double lat;
+    /// 방향(radian)
+    double orientation;
+};
+
 #endif /* ApiStructs_h */

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KakaoMapsSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KakaoMapsSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Foundation
 @_exported import KakaoMapsSDK
 import Swift
@@ -101,6 +101,11 @@ import _SwiftConcurrencyShims
   }
   @objc deinit
 }
+@objc public protocol RouteAnimationEffect {
+  @objc var interpolation: KakaoMapsSDK.AnimationInterpolation { get set }
+  @objc var hideAtStop: Swift.Bool { get set }
+  @objc var resetToInitialState: Swift.Bool { get set }
+}
 @objc @_inheritsConvenienceInitializers public class ZoneLinkInfo : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc convenience public init(zoneId: Swift.String, detailId: Swift.String)
@@ -144,6 +149,36 @@ extension KakaoMapsSDK.MapviewInfo {
   }
   @objc public var styleIndex: Swift.UInt {
     @objc get
+  }
+  @objc deinit
+}
+@objc public class ProgressAnimationEffect : ObjectiveC.NSObject, KakaoMapsSDK.RouteAnimationEffect {
+  @objc public init(direction: KakaoMapsSDK.ProgressDirection, type: KakaoMapsSDK.RouteProgressType)
+  @objc public var startPoint: Swift.Float {
+    @objc get
+  }
+  @objc public var endPoint: Swift.Float {
+    @objc get
+  }
+  @objc public var direction: KakaoMapsSDK.ProgressDirection {
+    @objc get
+    @objc set
+  }
+  @objc public var type: KakaoMapsSDK.RouteProgressType {
+    @objc get
+    @objc set
+  }
+  @objc public var interpolation: KakaoMapsSDK.AnimationInterpolation {
+    @objc get
+    @objc set
+  }
+  @objc public var hideAtStop: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public var resetToInitialState: Swift.Bool {
+    @objc get
+    @objc set
   }
   @objc deinit
 }
@@ -922,6 +957,10 @@ extension KakaoMapsSDK.RoadviewInfo {
   @objc open var position: KakaoMapsSDK.MapPoint? {
     @objc get
   }
+  @objc open var symbol: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class MapviewInfo : KakaoMapsSDK.ViewInfo {
@@ -994,6 +1033,21 @@ extension KakaoMapsSDK.RoadviewInfo {
   @objc public var polygons: [KakaoMapsSDK.Polygon] {
     @objc get
     @objc set
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class RouteAnimator : ObjectiveC.NSObject, KakaoMapsSDK.Animator {
+  @objc public func start()
+  @objc public func stop()
+  @objc public func setStopCallback(_ callback: (((any KakaoMapsSDK.Animator)?) -> Swift.Void)?)
+  @objc public func addRoute(_ route: KakaoMapsSDK.Route)
+  @objc public func addRoutes(_ routes: [KakaoMapsSDK.Route])
+  @objc public func clearAllRoutes()
+  @objc public var animatorID: Swift.String {
+    @objc get
+  }
+  @objc public var isStart: Swift.Bool {
+    @objc get
   }
   @objc deinit
 }
@@ -1511,6 +1565,9 @@ public protocol DisposableEventHandler {
   @objc open func setLanguage(_ langCode: Swift.String)
   @available(macOS 13, iOS 16, tvOS 16, watchOS 9, *)
   open func setLanguage(_ langCode: Foundation.Locale.LanguageCode)
+  @objc open func setMaxCountPerTile(category: KakaoMapsSDK.LabelCategory, count: Swift.UInt)
+  @objc open func resetMaxCountPerTile(category: KakaoMapsSDK.LabelCategory)
+  @objc open func setLabelCategoryVisible(category: KakaoMapsSDK.LabelCategory, visible: Swift.Bool)
   @objc open var buildingScale: Swift.Float {
     @objc get
     @objc set
@@ -1606,7 +1663,8 @@ public protocol DisposableEventHandler {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class SDKInitializer : ObjectiveC.NSObject {
-  @objc public static func InitSDK(appKey: Swift.String)
+  @objc public static func InitSDK(appKey: Swift.String, phase: KakaoMapsSDK.KAPhase = .real)
+  @objc public static func GetPhase() -> KakaoMapsSDK.KAPhase
   @objc public static func GetAppKey() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
@@ -1698,10 +1756,18 @@ public protocol DisposableEventHandler {
   }
   @objc deinit
 }
+public struct RoutePointInfo {
+}
+public struct RouteProgressInfo {
+}
 @objc @_hasMissingDesignatedInitializers public class Route : ObjectiveC.NSObject {
   @objc public func show()
   @objc public func hide()
   @objc public func changeStyleAndData(styleID: Swift.String, segments: [KakaoMapsSDK.RouteSegment])
+  @objc public func getProgressAlongRouteLine(position: KakaoMapsSDK.MapPoint) -> Swift.Float
+  public func getRoutePointInfoOnRoute(progress: Swift.Float) -> KakaoMapsSDK.RoutePointInfo?
+  @objc public func setProgress(progress: Swift.Float, type: KakaoMapsSDK.RouteProgressType, duration: Swift.UInt, callback: ((KakaoMapsSDK.Route?) -> Swift.Void)? = nil)
+  public func getProgress() -> KakaoMapsSDK.RouteProgressInfo?
   @objc public var routeID: Swift.String {
     @objc get
   }
@@ -1749,6 +1815,10 @@ public protocol DisposableEventHandler {
   @objc public func addRouteLayer(layerID: Swift.String, zOrder: Swift.Int) -> KakaoMapsSDK.RouteLayer?
   @objc public func getRouteLayer(layerID: Swift.String) -> KakaoMapsSDK.RouteLayer?
   @objc public func removeRouteLayer(layerID: Swift.String)
+  @objc public func addRouteAnimator(animatorID: Swift.String, effect: any KakaoMapsSDK.RouteAnimationEffect) -> KakaoMapsSDK.RouteAnimator?
+  @objc public func removeRouteAnimator(animatorID: Swift.String)
+  @objc public func clearAllRouteAnimators()
+  @objc public func getRouteAnimator(animatorID: Swift.String) -> KakaoMapsSDK.RouteAnimator?
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class TrackingManager : ObjectiveC.NSObject {

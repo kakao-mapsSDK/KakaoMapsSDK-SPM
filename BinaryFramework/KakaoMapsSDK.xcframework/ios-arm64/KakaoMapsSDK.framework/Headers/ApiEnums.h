@@ -10,6 +10,29 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, ViewInfoStage) {
+    ViewInfoStageProd = 0,
+    ViewInfoStageCbt,
+    ViewInfoStageDev,
+    ViewInfoStageAlpha
+};
+
+/// RouteLine의 진행 형태
+typedef NS_ENUM(NSInteger, RouteProgressType) {
+    /// 시작점부터 지정된 지점까지 비워지게 진행됨
+    RouteProgressTypeClearFromStart = 0,
+    /// 시작점부터 지정된 지점까지 채워지게 진행됨
+    RouteProgressTypeFillFromStart
+};
+
+/// Progress 진행 방향
+typedef NS_ENUM(NSInteger, ProgressDirection) {
+    /// 시작점에서 끝점으로 진행
+    ProgressDirectionForward = 0,
+    /// 끝점에서 시작점으로 진행
+    ProgressDirectionBackward
+};
+
 /// Developers Phase
 typedef NS_ENUM(NSInteger, KAPhase) {
     /// real
@@ -360,6 +383,56 @@ typedef NS_ENUM(NSInteger, DimScreenCover) {
     DimScreenCoverMapAndLabels,
     /// 지도 전부
     DimScreenCoverAll
+};
+
+/// LabelCategory 타입
+typedef NS_ENUM(NSInteger, LabelCategory) {
+    /// label policy 단위로 생성되는 카테고리
+    LabelCategoryPolicy_Category = 0,
+    /// 주요시군구
+    LabelCategoryAddress,
+    /// 행정구역
+    LabelCategoryDistrict,
+    /// 버스정류장
+    LabelCategoryBus_Stop,
+    /// 철도(지하철포함) 역사
+    LabelCategoryRailroad_Platform,
+    /// 철도(지하철포함) 입출입구
+    LabelCategoryRailroad_Entrance,
+    /// 철도(지하철포함) 호선
+    LabelCategoryRailroad_Line,
+    /// 제휴 브랜드(스타벅스)
+    LabelCategoryBrand,
+    /// 장소명
+    LabelCategoryPlace,
+    /// 등산로
+    LabelCategoryClimb,
+    /// 등산로 흐르는 글씨
+    LabelCategoryClimb_Wave,
+    /// 도로
+    LabelCategoryRoad,
+    /// 도로번호
+    LabelCategoryRoad_Number,
+    /// 도로상세정보( 횡단보도, 방면, 유턴 등 )
+    LabelCategoryRoad_Info,
+    /// 일반시설
+    LabelCategoryFacilities,
+    /// 공공시설
+    LabelCategoryPublic_Facilities,
+    /// 아파트동번호
+    LabelCategoryApart_Number,
+    /// 아파트 상세
+    LabelCategoryApart_Detail,
+    /// 주택동번호
+    LabelCategoryHouse_Number,
+    /// 지형지물
+    LabelCategoryLand,
+    /// 실내지도 존정보 및 시설물
+    LabelCategoryIndoor,
+    /// 실내지도 장소
+    LabelCategoryIndoor_Place,
+    /// 장소 카테고리
+    LabelCategoryDetail_Category = 1000
 };
 
 #endif /* ApiEnums_h */
