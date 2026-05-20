@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KakaoMapsSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KakaoMapsSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
 import Foundation
 @_exported import KakaoMapsSDK
 import Swift
@@ -193,6 +193,10 @@ extension KakaoMapsSDK.MapviewInfo {
   }
   @objc public var styleIndex: Swift.UInt {
     @objc get
+  }
+  @objc public var mergeOverlappedHoles: Swift.Bool {
+    @objc get
+    @objc set
   }
   @objc deinit
 }
@@ -1382,6 +1386,10 @@ extension KakaoMapsSDK.RoadviewInfo {
   }
   @objc public var styleIndex: Swift.UInt {
     @objc get
+  }
+  @objc public var mergeOverlappedHoles: Swift.Bool {
+    @objc get
+    @objc set
   }
   @objc deinit
 }

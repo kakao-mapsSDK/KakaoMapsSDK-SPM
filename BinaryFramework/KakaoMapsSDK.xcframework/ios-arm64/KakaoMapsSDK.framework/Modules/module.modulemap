@@ -7,5 +7,4 @@ framework module KakaoMapsSDK {
 
 module KakaoMapsSDK.Swift {
   header "KakaoMapsSDK-Swift.h"
-  requires objc
 }
